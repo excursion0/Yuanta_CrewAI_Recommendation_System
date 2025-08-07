@@ -1,0 +1,130 @@
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:05:24 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:06:34 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized
+2025-08-08 02:23:57 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:23:57 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:23:57 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:23:57 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:23:57 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:23:57 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:23:57 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:23:57 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:23:57 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:23:57 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized
+2025-08-08 02:26:32 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:26:32 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:26:32 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:26:32 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:26:32 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:26:32 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:26:32 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:26:32 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:26:32 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:26:32 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized
+2025-08-08 02:31:05 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:31:05 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:31:05 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:31:05 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:31:05 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:31:05 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:31:05 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:31:05 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:31:05 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:31:05 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized
+2025-08-08 02:34:57 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:34:57 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:34:57 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:34:57 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:34:57 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:34:57 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:34:57 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:34:57 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:34:57 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:34:57 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized
+2025-08-08 02:35:13 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:35:13 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:35:13 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:35:13 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:35:13 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:35:13 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:35:13 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:35:13 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:35:13 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:35:13 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized
+2025-08-08 02:37:37 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:37:37 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:37:37 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:37:37 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:37:37 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:37:37 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:37:37 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:37:37 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:37:37 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:37:37 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized
+2025-08-08 02:42:34 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:42:34 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:42:34 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:42:34 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:42:34 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:42:34 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:42:34 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:42:34 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:42:34 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:42:34 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized
+2025-08-08 02:49:19 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:49:19 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:49:19 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:49:19 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:49:19 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:49:19 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:49:19 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:49:19 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:49:19 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:49:19 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized
+2025-08-08 02:50:46 - ReportWriterAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:50:46 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' created successfully
+2025-08-08 02:50:46 - ReportWriterAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:50:46 - ReportWriterAgent - [32mINFO[0m - Agent 'ReportWriterAgent' initialized successfully
+2025-08-08 02:50:46 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportGeneratorTool
+2025-08-08 02:50:46 - ReportWriterAgent - [32mINFO[0m - Added tool: FormatConverterTool
+2025-08-08 02:50:46 - ReportWriterAgent - [32mINFO[0m - Added tool: ReportValidatorTool
+2025-08-08 02:50:46 - ReportWriterAgent - [32mINFO[0m - Added 3 report writer tools
+2025-08-08 02:50:46 - ReportWriterAgent - [32mINFO[0m - Configured report templates: executive_summary, detailed_analysis, investment_recommendation
+2025-08-08 02:50:46 - ReportWriterAgent - [32mINFO[0m - Report writer agent enhanced features initialized

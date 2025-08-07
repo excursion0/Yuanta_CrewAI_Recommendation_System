@@ -1,0 +1,254 @@
+2025-08-08 01:18:06 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 01:18:06 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 01:18:06 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 01:18:06 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 01:18:06 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 01:18:06 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 01:18:06 - FinancialCrewOrchestrator - [32mINFO[0m - Test info message
+2025-08-08 01:18:06 - FinancialCrewOrchestrator - [33mWARNING[0m - Test warning message
+2025-08-08 01:18:06 - FinancialCrewOrchestrator - [31mERROR[0m - Test error message
+2025-08-08 01:18:06 - FinancialCrewOrchestrator - [33mWARNING[0m - Validation error: Test validation error
+2025-08-08 01:25:07 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 01:25:07 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:05:24 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:05:24 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:05:24 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:05:24 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:06:34 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:06:34 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:06:34 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:06:34 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:23:57 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:23:57 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:26:32 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:26:32 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:27:14 - FinancialCrewOrchestrator - [32mINFO[0m - Processing financial query: i want to invest in high risk fund for my retirement with around $200000 in the next 10 years. any yuanta's product recommendation?
+2025-08-08 02:27:14 - FinancialCrewOrchestrator - [32mINFO[0m - Using conversation history with 1 messages
+2025-08-08 02:27:14 - FinancialCrewOrchestrator - [32mINFO[0m - Created 4 tasks for CrewAI execution
+2025-08-08 02:27:14 - FinancialCrewOrchestrator - [32mINFO[0m - Updated crew with tasks
+2025-08-08 02:27:14 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
+2025-08-08 02:27:14 - FinancialCrewOrchestrator - [31mERROR[0m - Unexpected error in CrewAI execution: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model={'model': 'claude-3-5-sonnet-20241022', 'provider': 'anthropic', 'temperature': 0.7, 'max_tokens': 4000}
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers - Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model={'model': 'claude-3-5-sonnet-20241022', 'provider': 'anthropic', 'temperature': 0.7, 'max_tokens': 4000}
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\agents\crew_orchestrator.py", line 236, in process_financial_query
+    result = self.crew.kickoff()
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\crew.py", line 669, in kickoff
+    result = self._run_sequential_process()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\crew.py", line 780, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\crew.py", line 883, in _execute_tasks
+    task_output = task.execute_sync(
+                  ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\task.py", line 351, in execute_sync
+    return self._execute_core(agent, context, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\task.py", line 499, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+    ^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\task.py", line 415, in _execute_core
+    result = agent.execute_task(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agent.py", line 459, in execute_task
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agent.py", line 435, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agent.py", line 531, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agents\crew_agent_executor.py", line 125, in invoke
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agents\crew_agent_executor.py", line 114, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agents\crew_agent_executor.py", line 211, in _invoke_loop
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agents\crew_agent_executor.py", line 157, in _invoke_loop
+    answer = get_llm_response(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\utilities\agent_utils.py", line 164, in get_llm_response
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\utilities\agent_utils.py", line 153, in get_llm_response
+    answer = llm.call(
+             ^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\llm.py", line 976, in call
+    return self._handle_non_streaming_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\llm.py", line 782, in _handle_non_streaming_response
+    response = litellm.completion(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\utils.py", line 1285, in wrapper
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\utils.py", line 1163, in wrapper
+    result = original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\main.py", line 3304, in completion
+    raise exception_type(
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\main.py", line 1052, in completion
+    model, custom_llm_provider, dynamic_api_key, api_base = get_llm_provider(
+                                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\get_llm_provider_logic.py", line 373, in get_llm_provider
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\get_llm_provider_logic.py", line 350, in get_llm_provider
+    raise litellm.exceptions.BadRequestError(  # type: ignore
+litellm.exceptions.BadRequestError: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model={'model': 'claude-3-5-sonnet-20241022', 'provider': 'anthropic', 'temperature': 0.7, 'max_tokens': 4000}
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2025-08-08 02:27:14 - FinancialCrewOrchestrator - [32mINFO[0m - Using fallback response for faster user experience
+2025-08-08 02:27:14 - FinancialCrewOrchestrator - [32mINFO[0m - Error type: BadRequestError
+2025-08-08 02:27:14 - FinancialCrewOrchestrator - [32mINFO[0m - Error details: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model={'model': 'claude-3-5-sonnet-20241022', 'provider': 'anthropic', 'temperature': 0.7, 'max_tokens': 4000}
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2025-08-08 02:31:05 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:31:05 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:34:57 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:34:57 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:35:13 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:35:13 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:35:13 - FinancialCrewOrchestrator - [32mINFO[0m - Processing financial query: i want to invest in high risk fund for my retirement with around  in the next 10 years. any yuanta product recommendation?
+2025-08-08 02:35:13 - FinancialCrewOrchestrator - [32mINFO[0m - Created 4 tasks for CrewAI execution
+2025-08-08 02:35:13 - FinancialCrewOrchestrator - [32mINFO[0m - Updated crew with tasks
+2025-08-08 02:35:13 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
+2025-08-08 02:36:12 - FinancialCrewOrchestrator - [32mINFO[0m - CrewAI execution completed successfully
+2025-08-08 02:36:12 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI
+2025-08-08 02:37:37 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:37:37 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:37:43 - FinancialCrewOrchestrator - [32mINFO[0m - Processing financial query: i want to invest in high risk fund for my retirement with around $200000 in the next 10 years. any yuanta's product recommendation?
+2025-08-08 02:37:43 - FinancialCrewOrchestrator - [32mINFO[0m - Using conversation history with 1 messages
+2025-08-08 02:37:43 - FinancialCrewOrchestrator - [32mINFO[0m - Created 4 tasks for CrewAI execution
+2025-08-08 02:37:43 - FinancialCrewOrchestrator - [32mINFO[0m - Updated crew with tasks
+2025-08-08 02:37:43 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
+2025-08-08 02:38:44 - FinancialCrewOrchestrator - [32mINFO[0m - CrewAI execution completed successfully
+2025-08-08 02:38:44 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI
+2025-08-08 02:42:34 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:42:34 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:49:19 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:49:19 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:50:46 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 02:50:46 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 02:51:02 - FinancialCrewOrchestrator - [32mINFO[0m - Processing financial query: i want to invest in high risk fund for my retirement with around $200000 in the next 10 years. any yuanta's product recommendation?
+2025-08-08 02:51:02 - FinancialCrewOrchestrator - [32mINFO[0m - Using conversation history with 1 messages
+2025-08-08 02:51:02 - FinancialCrewOrchestrator - [32mINFO[0m - Created 4 tasks for CrewAI execution
+2025-08-08 02:51:02 - FinancialCrewOrchestrator - [32mINFO[0m - Updated crew with tasks
+2025-08-08 02:51:02 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
+2025-08-08 02:51:02 - FinancialCrewOrchestrator - [31mERROR[0m - Unexpected error in CrewAI execution: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model={'model': 'claude-3-5-sonnet-20241022', 'provider': 'anthropic', 'temperature': 0.7, 'max_tokens': 4000}
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers - Error: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model={'model': 'claude-3-5-sonnet-20241022', 'provider': 'anthropic', 'temperature': 0.7, 'max_tokens': 4000}
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\agents\crew_orchestrator.py", line 236, in process_financial_query
+    result = self.crew.kickoff()
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\crew.py", line 669, in kickoff
+    result = self._run_sequential_process()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\crew.py", line 780, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\crew.py", line 883, in _execute_tasks
+    task_output = task.execute_sync(
+                  ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\task.py", line 351, in execute_sync
+    return self._execute_core(agent, context, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\task.py", line 499, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+    ^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\task.py", line 415, in _execute_core
+    result = agent.execute_task(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agent.py", line 459, in execute_task
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agent.py", line 435, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agent.py", line 531, in _execute_without_timeout
+    return self.agent_executor.invoke(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agents\crew_agent_executor.py", line 125, in invoke
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agents\crew_agent_executor.py", line 114, in invoke
+    formatted_answer = self._invoke_loop()
+                       ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agents\crew_agent_executor.py", line 211, in _invoke_loop
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\agents\crew_agent_executor.py", line 157, in _invoke_loop
+    answer = get_llm_response(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\utilities\agent_utils.py", line 164, in get_llm_response
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\utilities\agent_utils.py", line 153, in get_llm_response
+    answer = llm.call(
+             ^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\llm.py", line 976, in call
+    return self._handle_non_streaming_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\crewai\llm.py", line 782, in _handle_non_streaming_response
+    response = litellm.completion(**params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\utils.py", line 1285, in wrapper
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\utils.py", line 1163, in wrapper
+    result = original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\main.py", line 3304, in completion
+    raise exception_type(
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\main.py", line 1052, in completion
+    model, custom_llm_provider, dynamic_api_key, api_base = get_llm_provider(
+                                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\get_llm_provider_logic.py", line 373, in get_llm_provider
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\get_llm_provider_logic.py", line 350, in get_llm_provider
+    raise litellm.exceptions.BadRequestError(  # type: ignore
+litellm.exceptions.BadRequestError: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model={'model': 'claude-3-5-sonnet-20241022', 'provider': 'anthropic', 'temperature': 0.7, 'max_tokens': 4000}
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2025-08-08 02:51:02 - FinancialCrewOrchestrator - [32mINFO[0m - Using fallback response for faster user experience
+2025-08-08 02:51:02 - FinancialCrewOrchestrator - [32mINFO[0m - Error type: BadRequestError
+2025-08-08 02:51:02 - FinancialCrewOrchestrator - [32mINFO[0m - Error details: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model={'model': 'claude-3-5-sonnet-20241022', 'provider': 'anthropic', 'temperature': 0.7, 'max_tokens': 4000}
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2025-08-08 03:22:09 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 03:22:09 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 03:22:17 - FinancialCrewOrchestrator - [32mINFO[0m - Processing financial query: i want to invest in high risk fund for my retirement with around $200000 in the next 10 years. any yuanta's product recommendation?
+2025-08-08 03:22:17 - FinancialCrewOrchestrator - [32mINFO[0m - Using conversation history with 1 messages
+2025-08-08 03:22:17 - FinancialCrewOrchestrator - [32mINFO[0m - Created 4 tasks for CrewAI execution
+2025-08-08 03:22:17 - FinancialCrewOrchestrator - [32mINFO[0m - Updated crew with tasks
+2025-08-08 03:22:17 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
+2025-08-08 03:23:25 - FinancialCrewOrchestrator - [32mINFO[0m - CrewAI execution completed successfully
+2025-08-08 03:23:25 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI
+2025-08-08 03:25:29 - FinancialCrewOrchestrator - [32mINFO[0m - Processing financial query: is my budget enough for low risk products?
+2025-08-08 03:25:29 - FinancialCrewOrchestrator - [32mINFO[0m - Using conversation history with 3 messages
+2025-08-08 03:25:29 - FinancialCrewOrchestrator - [32mINFO[0m - Created 4 tasks for CrewAI execution
+2025-08-08 03:25:30 - FinancialCrewOrchestrator - [32mINFO[0m - Updated crew with tasks
+2025-08-08 03:25:30 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
+2025-08-08 03:27:00 - FinancialCrewOrchestrator - [32mINFO[0m - CrewAI execution completed successfully
+2025-08-08 03:27:00 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI
+2025-08-08 03:35:51 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 03:35:51 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 03:38:36 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 03:38:36 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 03:41:02 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 03:41:02 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 03:42:23 - FinancialCrewOrchestrator - [32mINFO[0m - Processing financial query: i want to invest in high risk fund for my retirement with around $200000 in the next 10 years. any yuanta's product recommendation?
+2025-08-08 03:42:23 - FinancialCrewOrchestrator - [32mINFO[0m - Using conversation history with 1 messages
+2025-08-08 03:42:23 - FinancialCrewOrchestrator - [32mINFO[0m - Created 6 tasks for CrewAI execution
+2025-08-08 03:42:23 - FinancialCrewOrchestrator - [32mINFO[0m - Updated crew with tasks
+2025-08-08 03:42:23 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
+2025-08-08 03:44:00 - FinancialCrewOrchestrator - [32mINFO[0m - CrewAI execution completed successfully
+2025-08-08 03:44:00 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI
+2025-08-08 03:52:36 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-08 03:52:36 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-08 03:52:48 - FinancialCrewOrchestrator - [32mINFO[0m - Processing financial query: i want to invest in high risk fund for my retirement with around $200000 in the next 10 years. any yuanta's product recommendation?
+2025-08-08 03:52:48 - FinancialCrewOrchestrator - [32mINFO[0m - Using conversation history with 1 messages
+2025-08-08 03:52:48 - FinancialCrewOrchestrator - [32mINFO[0m - Created 4 tasks for CrewAI execution
+2025-08-08 03:52:48 - FinancialCrewOrchestrator - [32mINFO[0m - Updated crew with tasks
+2025-08-08 03:52:48 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
+2025-08-08 03:54:22 - FinancialCrewOrchestrator - [32mINFO[0m - CrewAI execution completed successfully
+2025-08-08 03:54:22 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI
+2025-08-08 03:56:00 - FinancialCrewOrchestrator - [32mINFO[0m - Processing financial query: based on our conversation. do you think that my budget is good enough for low risk products?
+2025-08-08 03:56:00 - FinancialCrewOrchestrator - [32mINFO[0m - Using conversation history with 3 messages
+2025-08-08 03:56:00 - FinancialCrewOrchestrator - [32mINFO[0m - Created 4 tasks for CrewAI execution
+2025-08-08 03:56:00 - FinancialCrewOrchestrator - [32mINFO[0m - Updated crew with tasks
+2025-08-08 03:56:00 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
+2025-08-08 03:57:35 - FinancialCrewOrchestrator - [32mINFO[0m - CrewAI execution completed successfully
+2025-08-08 03:57:35 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI

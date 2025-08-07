@@ -1,0 +1,130 @@
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:05:24 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:06:34 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized
+2025-08-08 02:23:57 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:23:57 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:23:57 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:23:57 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:23:57 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:23:57 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:23:57 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:23:57 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:23:57 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:23:57 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized
+2025-08-08 02:26:32 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:26:32 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:26:32 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:26:32 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:26:32 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:26:32 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:26:32 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:26:32 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:26:32 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:26:32 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized
+2025-08-08 02:31:05 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:31:05 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:31:05 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:31:05 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:31:05 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:31:05 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:31:05 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:31:05 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:31:05 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:31:05 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized
+2025-08-08 02:34:57 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:34:57 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:34:57 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:34:57 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:34:57 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:34:57 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:34:57 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:34:57 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:34:57 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:34:57 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized
+2025-08-08 02:35:13 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:35:13 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:35:13 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:35:13 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:35:13 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:35:13 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:35:13 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:35:13 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:35:13 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:35:13 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized
+2025-08-08 02:37:37 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:37:37 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:37:37 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:37:37 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:37:37 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:37:37 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:37:37 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:37:37 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:37:37 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:37:37 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized
+2025-08-08 02:42:34 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:42:34 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:42:34 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:42:34 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:42:34 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:42:34 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:42:34 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:42:34 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:42:34 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:42:34 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized
+2025-08-08 02:49:19 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:49:19 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:49:19 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:49:19 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:49:19 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:49:19 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:49:19 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:49:19 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:49:19 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:49:19 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized
+2025-08-08 02:50:46 - MemoryAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:50:46 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' created successfully
+2025-08-08 02:50:46 - MemoryAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:50:46 - MemoryAgent - [32mINFO[0m - Agent 'MemoryAgent' initialized successfully
+2025-08-08 02:50:46 - MemoryAgent - [32mINFO[0m - Added tool: MemoryStoreTool
+2025-08-08 02:50:46 - MemoryAgent - [32mINFO[0m - Added tool: MemoryRetrieveTool
+2025-08-08 02:50:46 - MemoryAgent - [32mINFO[0m - Added tool: MemoryCleanupTool
+2025-08-08 02:50:46 - MemoryAgent - [32mINFO[0m - Added 3 memory tools
+2025-08-08 02:50:46 - MemoryAgent - [32mINFO[0m - Configured memory types: conversation, user_preferences, investment_history, market_context
+2025-08-08 02:50:46 - MemoryAgent - [32mINFO[0m - Memory agent enhanced features initialized

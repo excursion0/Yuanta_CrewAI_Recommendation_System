@@ -1,0 +1,96 @@
+{
+  "mcpServers": {
+    "awslabs.core-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "awslabs.core-mcp-server@latest",
+        "awslabs.core-mcp-server.exe",
+        "--allow-write"
+      ],
+      "transportType": "stdio"
+    },
+    "awslabs.aws-documentation-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "awslabs.aws-documentation-mcp-server@latest",
+        "awslabs.aws-documentation-mcp-server.exe",
+        "--allow-write"
+      ],
+      "transportType": "stdio"
+    },
+    "awslabs.lambda-tool-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "awslabs.lambda-tool-mcp-server@latest",
+        "awslabs.lambda-tool-mcp-server.exe",
+        "--allow-write"
+      ],
+      "transportType": "stdio"
+    },
+    "awslabs.cloudwatch-logs-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "awslabs.cloudwatch-logs-mcp-server@latest",
+        "awslabs.cloudwatch-logs-mcp-server.exe",
+        "--allow-write"
+      ],
+      "transportType": "stdio"
+    },
+    "awslabs.aws-serverless-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "awslabs.aws-serverless-mcp-server@latest",
+        "awslabs.aws-serverless-mcp-server.exe",
+        "--allow-write"
+      ],
+      "transportType": "stdio"
+    },
+    "awslabs.cdk-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "awslabs.cdk-mcp-server@latest",
+        "awslabs.cdk-mcp-server.exe",
+        "--allow-write"
+      ],
+      "transportType": "stdio"
+    },  
+    "awslabs.cloudformation-mcp-server": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "awslabs.cfn-mcp-server@latest",
+        "awslabs.cfn-mcp-server.exe"
+      ],
+      "transportType": "stdio"
+    },
+    "aws-cli-mcp": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "aws-cli-mcp-server@latest",
+        "aws-cli-mcp-server.exe"
+      ],
+      "transportType": "stdio"
+    },
+    "docker-mcp-toolkit": {
+      "command": "uvx",
+      "args": [
+        "docker-mcp"
+      ],
+      "transportType": "stdio"
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y", "@modelcontextprotocol/server-filesystem", "C:\\Users\\Vivobook\\Documents\\yuanta_chan"
+      ],
+      "transportType": "stdio"
+    }
+  }
+}

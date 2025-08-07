@@ -1,0 +1,130 @@
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:05:24 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:06:34 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized
+2025-08-08 02:23:57 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:23:57 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:23:57 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:23:57 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:23:57 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:23:57 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:23:57 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:23:57 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:23:57 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:23:57 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized
+2025-08-08 02:26:32 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:26:32 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:26:32 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:26:32 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:26:32 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:26:32 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:26:32 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:26:32 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:26:32 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:26:32 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized
+2025-08-08 02:31:05 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:31:05 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:31:05 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:31:05 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:31:05 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:31:05 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:31:05 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:31:05 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:31:05 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:31:05 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized
+2025-08-08 02:34:57 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:34:57 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:34:57 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:34:57 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:34:57 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:34:57 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:34:57 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:34:57 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:34:57 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:34:57 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized
+2025-08-08 02:35:13 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:35:13 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:35:13 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:35:13 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:35:13 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:35:13 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:35:13 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:35:13 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:35:13 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:35:13 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized
+2025-08-08 02:37:37 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:37:37 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:37:37 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:37:37 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:37:37 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:37:37 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:37:37 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:37:37 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:37:37 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:37:37 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized
+2025-08-08 02:42:34 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:42:34 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:42:34 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:42:34 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:42:34 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:42:34 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:42:34 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:42:34 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:42:34 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:42:34 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized
+2025-08-08 02:49:19 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:49:19 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:49:19 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:49:19 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:49:19 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:49:19 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:49:19 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:49:19 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:49:19 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:49:19 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized
+2025-08-08 02:50:46 - SupervisorAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:50:46 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' created successfully
+2025-08-08 02:50:46 - SupervisorAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:50:46 - SupervisorAgent - [32mINFO[0m - Agent 'SupervisorAgent' initialized successfully
+2025-08-08 02:50:46 - SupervisorAgent - [32mINFO[0m - Added tool: QualityReviewTool
+2025-08-08 02:50:46 - SupervisorAgent - [32mINFO[0m - Added tool: ComplianceCheckTool
+2025-08-08 02:50:46 - SupervisorAgent - [32mINFO[0m - Added tool: FinalApprovalTool
+2025-08-08 02:50:46 - SupervisorAgent - [32mINFO[0m - Added 3 supervisor tools
+2025-08-08 02:50:46 - SupervisorAgent - [32mINFO[0m - Configured review criteria: completeness, accuracy, compliance, clarity, relevance
+2025-08-08 02:50:46 - SupervisorAgent - [32mINFO[0m - Supervisor agent enhanced features initialized

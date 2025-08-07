@@ -1,0 +1,178 @@
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Generating personalized investment recommendations
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Executing task: Generate recommendations for user with moderate risk tolerance...
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 02:05:24 - RecommendationAgent - [32mINFO[0m - Investment recommendations generated successfully
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Generating personalized investment recommendations
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Executing task: Generate recommendations for user with moderate risk tolerance...
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 02:06:34 - RecommendationAgent - [32mINFO[0m - Investment recommendations generated successfully
+2025-08-08 02:23:57 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:23:57 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:23:57 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:23:57 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:23:57 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:23:57 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:23:57 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:23:57 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:23:57 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:23:57 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:26:32 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:26:32 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:26:32 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:26:32 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:26:32 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:26:32 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:26:32 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:26:32 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:26:32 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:26:32 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:31:05 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:31:05 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:31:05 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:31:05 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:31:05 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:31:05 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:31:05 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:31:05 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:31:05 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:31:05 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:34:57 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:34:57 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:34:57 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:34:57 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:34:57 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:34:57 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:34:57 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:34:57 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:34:57 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:34:57 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:35:13 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:35:13 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:35:13 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:35:13 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:35:13 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:35:13 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:35:13 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:35:13 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:35:13 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:35:13 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:37:37 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:37:37 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:37:37 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:37:37 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:37:37 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:37:37 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:37:37 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:37:37 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:37:37 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:37:37 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:42:34 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:42:34 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:42:34 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:42:34 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:42:34 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:42:34 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:42:34 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:42:34 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:42:34 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:42:34 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:49:19 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:49:19 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:49:19 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:49:19 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:49:19 - RecommendationAgent - [32mINFO[0m - Added tool: Tool
+2025-08-08 02:49:19 - RecommendationAgent - [32mINFO[0m - Added tool: Tool
+2025-08-08 02:49:19 - RecommendationAgent - [32mINFO[0m - Added tool: Tool
+2025-08-08 02:49:19 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:49:19 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:49:19 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized
+2025-08-08 02:50:46 - RecommendationAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:50:46 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' created successfully
+2025-08-08 02:50:46 - RecommendationAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:50:46 - RecommendationAgent - [32mINFO[0m - Agent 'RecommendationAgent' initialized successfully
+2025-08-08 02:50:46 - RecommendationAgent - [32mINFO[0m - Added tool: ProductAnalysisTool
+2025-08-08 02:50:46 - RecommendationAgent - [32mINFO[0m - Added tool: PortfolioOptimizationTool
+2025-08-08 02:50:46 - RecommendationAgent - [32mINFO[0m - Added tool: RecommendationScoringTool
+2025-08-08 02:50:46 - RecommendationAgent - [32mINFO[0m - Added 3 recommendation tools
+2025-08-08 02:50:46 - RecommendationAgent - [32mINFO[0m - Configured recommendation models: risk_adjusted, diversification, income_focused, growth_oriented
+2025-08-08 02:50:46 - RecommendationAgent - [32mINFO[0m - Recommendation agent enhanced features initialized

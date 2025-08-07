@@ -1,0 +1,3 @@
+2025-08-08 01:17:52 - TestClass - [32mINFO[0m - Test info message
+2025-08-08 01:17:52 - TestClass - [33mWARNING[0m - Test warning message
+2025-08-08 01:17:52 - TestClass - [31mERROR[0m - Test error message

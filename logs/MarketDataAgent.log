@@ -1,0 +1,818 @@
+2025-08-08 01:34:18 - MarketDataAgent - [31mERROR[0m - Failed to initialize agent: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[] - Error: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[]
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\llms\anthropic\chat\transformation.py", line 669, in transform_request
+    anthropic_messages = anthropic_messages_pt(
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\prompt_templates\factory.py", line 1527, in anthropic_messages_pt
+    raise litellm.BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\main.py", line 2050, in completion
+    response = anthropic_chat_completions.completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\llms\anthropic\chat\handler.py", line 335, in completion
+    data = config.transform_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\llms\anthropic\chat\transformation.py", line 675, in transform_request
+    raise AnthropicError(
+litellm.llms.anthropic.common_utils.AnthropicError: litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\agents\base_agent_enhanced.py", line 138, in _initialize_agent
+    self.llm = completion(
+               ^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\utils.py", line 1285, in wrapper
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\utils.py", line 1163, in wrapper
+    result = original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\main.py", line 3304, in completion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2271, in exception_type
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 581, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[]
+2025-08-08 01:34:18 - MarketDataAgent - [31mERROR[0m - Failed to initialize agent: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[] - Error: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[]
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\llms\anthropic\chat\transformation.py", line 669, in transform_request
+    anthropic_messages = anthropic_messages_pt(
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\prompt_templates\factory.py", line 1527, in anthropic_messages_pt
+    raise litellm.BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\main.py", line 2050, in completion
+    response = anthropic_chat_completions.completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\llms\anthropic\chat\handler.py", line 335, in completion
+    data = config.transform_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\llms\anthropic\chat\transformation.py", line 675, in transform_request
+    raise AnthropicError(
+litellm.llms.anthropic.common_utils.AnthropicError: litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\agents\base_agent_enhanced.py", line 138, in _initialize_agent
+    self.llm = completion(
+               ^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\utils.py", line 1285, in wrapper
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\utils.py", line 1163, in wrapper
+    result = original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\main.py", line 3304, in completion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2271, in exception_type
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 581, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[]
+2025-08-08 01:34:19 - MarketDataAgent - [31mERROR[0m - Failed to initialize agent: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[] - Error: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[]
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\llms\anthropic\chat\transformation.py", line 669, in transform_request
+    anthropic_messages = anthropic_messages_pt(
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\prompt_templates\factory.py", line 1527, in anthropic_messages_pt
+    raise litellm.BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\main.py", line 2050, in completion
+    response = anthropic_chat_completions.completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\llms\anthropic\chat\handler.py", line 335, in completion
+    data = config.transform_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\llms\anthropic\chat\transformation.py", line 675, in transform_request
+    raise AnthropicError(
+litellm.llms.anthropic.common_utils.AnthropicError: litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\agents\base_agent_enhanced.py", line 138, in _initialize_agent
+    self.llm = completion(
+               ^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\utils.py", line 1285, in wrapper
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\utils.py", line 1163, in wrapper
+    result = original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\main.py", line 3304, in completion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2271, in exception_type
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 581, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[]
+2025-08-08 01:34:19 - MarketDataAgent - [31mERROR[0m - Failed to initialize agent: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[] - Error: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[]
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\llms\anthropic\chat\transformation.py", line 669, in transform_request
+    anthropic_messages = anthropic_messages_pt(
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\prompt_templates\factory.py", line 1527, in anthropic_messages_pt
+    raise litellm.BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\main.py", line 2050, in completion
+    response = anthropic_chat_completions.completion(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\llms\anthropic\chat\handler.py", line 335, in completion
+    data = config.transform_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\llms\anthropic\chat\transformation.py", line 675, in transform_request
+    raise AnthropicError(
+litellm.llms.anthropic.common_utils.AnthropicError: litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\agents\base_agent_enhanced.py", line 138, in _initialize_agent
+    self.llm = completion(
+               ^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\utils.py", line 1285, in wrapper
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\utils.py", line 1163, in wrapper
+    result = original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\main.py", line 3304, in completion
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2271, in exception_type
+    raise e
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 581, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: AnthropicException - litellm.BadRequestError: Anthropic requires at least one non-system message. Either provide one, or set `litellm.modify_params = True` // `litellm_settings::modify_params: True` to add the dummy user message - {'role': 'user', 'content': 'Please continue.'}.
+Received Messages=[]
+2025-08-08 01:35:06 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:35:06 - MarketDataAgent - [31mERROR[0m - Failed to initialize agent: 1 validation error for Agent
+goal
+  Field required [type=missing, input_value={'role': 'Market Data Ana....7, 'max_tokens': 4000}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing - Error: 1 validation error for Agent
+goal
+  Field required [type=missing, input_value={'role': 'Market Data Ana....7, 'max_tokens': 4000}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\agents\base_agent_enhanced.py", line 148, in _initialize_agent
+    self.crew_agent = Agent(
+                      ^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Agent
+goal
+  Field required [type=missing, input_value={'role': 'Market Data Ana....7, 'max_tokens': 4000}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-08-08 01:35:06 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:35:06 - MarketDataAgent - [31mERROR[0m - Failed to initialize agent: 1 validation error for Agent
+goal
+  Field required [type=missing, input_value={'role': 'Market Data Ana....7, 'max_tokens': 4000}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing - Error: 1 validation error for Agent
+goal
+  Field required [type=missing, input_value={'role': 'Market Data Ana....7, 'max_tokens': 4000}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\agents\base_agent_enhanced.py", line 148, in _initialize_agent
+    self.crew_agent = Agent(
+                      ^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Agent
+goal
+  Field required [type=missing, input_value={'role': 'Market Data Ana....7, 'max_tokens': 4000}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-08-08 01:35:06 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:35:06 - MarketDataAgent - [31mERROR[0m - Failed to initialize agent: 1 validation error for Agent
+goal
+  Field required [type=missing, input_value={'role': 'Market Data Ana....7, 'max_tokens': 4000}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing - Error: 1 validation error for Agent
+goal
+  Field required [type=missing, input_value={'role': 'Market Data Ana....7, 'max_tokens': 4000}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\agents\base_agent_enhanced.py", line 148, in _initialize_agent
+    self.crew_agent = Agent(
+                      ^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Agent
+goal
+  Field required [type=missing, input_value={'role': 'Market Data Ana....7, 'max_tokens': 4000}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-08-08 01:35:06 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:35:06 - MarketDataAgent - [31mERROR[0m - Failed to initialize agent: 1 validation error for Agent
+goal
+  Field required [type=missing, input_value={'role': 'Valid Role', 'b...0.5, 'max_tokens': 500}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing - Error: 1 validation error for Agent
+goal
+  Field required [type=missing, input_value={'role': 'Valid Role', 'b...0.5, 'max_tokens': 500}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\agents\base_agent_enhanced.py", line 148, in _initialize_agent
+    self.crew_agent = Agent(
+                      ^^^^^^
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Agent
+goal
+  Field required [type=missing, input_value={'role': 'Valid Role', 'b...0.5, 'max_tokens': 500}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Analyzing market conditions for 2 symbols
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Executing task: Analyze market conditions for symbols: ['AAPL', 'GOOGL']...
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Market analysis completed successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Retrieving economic indicators
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Executing task: Retrieve and analyze current economic indicators...
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Economic indicators retrieved successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Analyzing trends for AAPL over 1y
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Executing task: Analyze market trends for AAPL over 1y period...
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Trend analysis completed for AAPL
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Generating comprehensive market summary
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Analyzing market conditions for all symbols
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Executing task: Analyze market conditions for symbols: general market...
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Market analysis completed successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Retrieving economic indicators
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Executing task: Retrieve and analyze current economic indicators...
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Economic indicators retrieved successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Market summary generated successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Analyzing market conditions for 1 symbols
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Executing task: Analyze market conditions for symbols: ['AAPL']...
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Market analysis completed successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Agent 'ValidAgent' created successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Agent 'ValidAgent' initialized successfully
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Updated config: temperature = 0.8
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Updated config: max_tokens = 1000
+2025-08-08 01:36:34 - MarketDataAgent - [32mINFO[0m - Updated data sources: new_source1, new_source2
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Executing task: Test task...
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'CustomMarketAgent' created successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'CustomMarketAgent' initialized successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Configured data sources: custom_source1, custom_source2
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Updated config: temperature = 0.9
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Updated config: max_tokens = 3000
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Updated data sources: new_source1, new_source2, new_source3
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: TestTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Removed tool: TestTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Executing task: Valid task...
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Analyzing market conditions for 2 symbols
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Executing task: Analyze market conditions for symbols: ['AAPL', 'GOOGL']...
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Market analysis completed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Retrieving economic indicators
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Executing task: Retrieve and analyze current economic indicators...
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Economic indicators retrieved successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Analyzing trends for AAPL over 1y
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Executing task: Analyze market trends for AAPL over 1y period...
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Trend analysis completed for AAPL
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Generating comprehensive market summary
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Analyzing market conditions for all symbols
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Executing task: Analyze market conditions for symbols: general market...
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Market analysis completed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Retrieving economic indicators
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Executing task: Retrieve and analyze current economic indicators...
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Economic indicators retrieved successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Market summary generated successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Executing task: Performance test task 0...
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Executing task: Performance test task 1...
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Executing task: Performance test task 2...
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Executing task: ...
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:08 - MarketDataAgent - [31mERROR[0m - Task execution failed: 'NoneType' object is not subscriptable - Error: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\agents\base_agent_enhanced.py", line 207, in execute_task
+    self.log_info(f"Executing task: {task_description[:100]}...")
+                                     ~~~~~~~~~~~~~~~~^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:08 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Executing task: Test task...
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent metrics reset
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'CustomMarketAgent' created successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'CustomMarketAgent' initialized successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Configured data sources: custom_source1, custom_source2
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Updated config: temperature = 0.9
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Updated config: max_tokens = 3000
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Updated data sources: new_source1, new_source2, new_source3
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: TestTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Removed tool: TestTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Executing task: Valid task...
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Analyzing market conditions for 2 symbols
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Executing task: Analyze market conditions for symbols: ['AAPL', 'GOOGL']...
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Market analysis completed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Retrieving economic indicators
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Executing task: Retrieve and analyze current economic indicators...
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Economic indicators retrieved successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Analyzing trends for AAPL over 1y
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Executing task: Analyze market trends for AAPL over 1y period...
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Trend analysis completed for AAPL
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Generating comprehensive market summary
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Analyzing market conditions for all symbols
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Executing task: Analyze market conditions for symbols: general market...
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Market analysis completed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Retrieving economic indicators
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Executing task: Retrieve and analyze current economic indicators...
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Economic indicators retrieved successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Market summary generated successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Executing task: Performance test task 0...
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Executing task: Performance test task 1...
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Executing task: Performance test task 2...
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Executing task: ...
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 01:41:49 - MarketDataAgent - [31mERROR[0m - Task execution failed: 'NoneType' object is not subscriptable - Error: 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\agents\base_agent_enhanced.py", line 211, in execute_task
+    self.log_info(f"Executing task: {task_description[:100]}...")
+                                     ~~~~~~~~~~~~~~~~^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 01:41:49 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Executing task: Test task...
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Analyzing market conditions for 2 symbols
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Executing task: Analyze market conditions for symbols: ['AAPL', 'GOOGL']...
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 02:05:24 - MarketDataAgent - [32mINFO[0m - Market analysis completed successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Executing task: Test task...
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Analyzing market conditions for 2 symbols
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Executing task: Analyze market conditions for symbols: ['AAPL', 'GOOGL']...
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 02:06:34 - MarketDataAgent - [32mINFO[0m - Market analysis completed successfully
+2025-08-08 02:23:57 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:23:57 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:23:57 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:23:57 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:23:57 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:23:57 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:23:57 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:23:57 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:23:57 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:23:57 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:26:32 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:26:32 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:26:32 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:26:32 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:26:32 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:26:32 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:26:32 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:26:32 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:26:32 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:26:32 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:31:05 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:31:05 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:31:05 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:31:05 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:31:05 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:31:05 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:31:05 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:31:05 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:31:05 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:31:05 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:34:57 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:34:57 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:34:57 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:34:57 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:34:57 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:34:57 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:34:57 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:34:57 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:34:57 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:34:57 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:35:13 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:35:13 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:35:13 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:35:13 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:35:13 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:35:13 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:35:13 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:35:13 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:35:13 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:35:13 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:37:37 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:37:37 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:37:37 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:37:37 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:37:37 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:37:37 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:37:37 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:37:37 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:37:37 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:37:37 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:42:34 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:42:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:42:34 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:42:34 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:42:34 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:42:34 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:42:34 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:42:34 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:42:34 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:42:34 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:49:19 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:49:19 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:49:19 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:49:19 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:49:19 - MarketDataAgent - [32mINFO[0m - Added tool: Tool
+2025-08-08 02:49:19 - MarketDataAgent - [32mINFO[0m - Added tool: Tool
+2025-08-08 02:49:19 - MarketDataAgent - [32mINFO[0m - Added tool: Tool
+2025-08-08 02:49:19 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:49:19 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:49:19 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized
+2025-08-08 02:50:46 - MarketDataAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:50:46 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' created successfully
+2025-08-08 02:50:46 - MarketDataAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:50:46 - MarketDataAgent - [32mINFO[0m - Agent 'MarketDataAgent' initialized successfully
+2025-08-08 02:50:46 - MarketDataAgent - [32mINFO[0m - Added tool: MarketDataTool
+2025-08-08 02:50:46 - MarketDataAgent - [32mINFO[0m - Added tool: EconomicIndicatorTool
+2025-08-08 02:50:46 - MarketDataAgent - [32mINFO[0m - Added tool: TrendAnalysisTool
+2025-08-08 02:50:46 - MarketDataAgent - [32mINFO[0m - Added 3 market data tools
+2025-08-08 02:50:46 - MarketDataAgent - [32mINFO[0m - Configured data sources: yahoo_finance, alpha_vantage, market_watch
+2025-08-08 02:50:46 - MarketDataAgent - [32mINFO[0m - Market data agent enhanced features initialized

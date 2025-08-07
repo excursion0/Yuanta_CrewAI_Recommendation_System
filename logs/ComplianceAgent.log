@@ -1,0 +1,130 @@
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:05:24 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:06:34 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized
+2025-08-08 02:23:57 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:23:57 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:23:57 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:23:57 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:23:57 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:23:57 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:23:57 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:23:57 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:23:57 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:23:57 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized
+2025-08-08 02:26:32 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:26:32 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:26:32 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:26:32 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:26:32 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:26:32 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:26:32 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:26:32 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:26:32 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:26:32 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized
+2025-08-08 02:31:05 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:31:05 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:31:05 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:31:05 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:31:05 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:31:05 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:31:05 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:31:05 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:31:05 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:31:05 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized
+2025-08-08 02:34:57 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:34:57 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:34:57 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:34:57 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:34:57 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:34:57 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:34:57 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:34:57 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:34:57 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:34:57 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized
+2025-08-08 02:35:13 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:35:13 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:35:13 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:35:13 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:35:13 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:35:13 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:35:13 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:35:13 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:35:13 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:35:13 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized
+2025-08-08 02:37:37 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:37:37 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:37:37 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:37:37 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:37:37 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:37:37 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:37:37 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:37:37 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:37:37 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:37:37 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized
+2025-08-08 02:42:34 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:42:34 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:42:34 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:42:34 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:42:34 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:42:34 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:42:34 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:42:34 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:42:34 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:42:34 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized
+2025-08-08 02:49:19 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:49:19 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:49:19 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:49:19 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:49:19 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:49:19 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:49:19 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:49:19 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:49:19 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:49:19 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized
+2025-08-08 02:50:46 - ComplianceAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:50:46 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' created successfully
+2025-08-08 02:50:46 - ComplianceAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:50:46 - ComplianceAgent - [32mINFO[0m - Agent 'ComplianceAgent' initialized successfully
+2025-08-08 02:50:46 - ComplianceAgent - [32mINFO[0m - Added tool: SuitabilityCheckTool
+2025-08-08 02:50:46 - ComplianceAgent - [32mINFO[0m - Added tool: RegulatoryCheckTool
+2025-08-08 02:50:46 - ComplianceAgent - [32mINFO[0m - Added tool: ComplianceAuditTool
+2025-08-08 02:50:46 - ComplianceAgent - [32mINFO[0m - Added 3 compliance tools
+2025-08-08 02:50:46 - ComplianceAgent - [32mINFO[0m - Configured compliance rules: suitability, know_your_customer, anti_money_laundering
+2025-08-08 02:50:46 - ComplianceAgent - [32mINFO[0m - Compliance agent enhanced features initialized

@@ -1,0 +1,198 @@
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Analyzing investment risk
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Executing task: Analyze investment risk for: AAPL...
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 02:05:24 - RiskAnalysisAgent - [32mINFO[0m - Investment risk analysis completed successfully
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Analyzing investment risk
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Executing task: Analyze investment risk for: AAPL...
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Task executed successfully
+2025-08-08 02:06:34 - RiskAnalysisAgent - [32mINFO[0m - Investment risk analysis completed successfully
+2025-08-08 02:23:57 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:23:57 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:23:57 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:23:57 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:23:57 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:23:57 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:23:57 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:23:57 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:23:57 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:23:57 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:26:32 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:26:32 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:26:32 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:26:32 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:26:32 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:26:32 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:26:32 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:26:32 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:26:32 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:26:32 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:31:05 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:31:05 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:31:05 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:31:05 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:31:05 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:31:05 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:31:05 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:31:05 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:31:05 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:31:05 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:34:57 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:34:57 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:34:57 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:34:57 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:34:57 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:34:57 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:34:57 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:34:57 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:34:57 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:34:57 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:35:13 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:35:13 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:35:13 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:35:13 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:35:13 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:35:13 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:35:13 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:35:13 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:35:13 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:35:13 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:37:37 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:37:37 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:37:37 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:37:37 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:37:37 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:37:37 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:37:37 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:37:37 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:37:37 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:37:37 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:42:34 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:42:34 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:42:34 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:42:34 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:42:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:42:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:42:34 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:42:34 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:42:34 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:42:34 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:49:19 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:49:19 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:49:19 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:49:19 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:49:19 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:49:19 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:49:19 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:49:19 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:49:19 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:49:19 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
+2025-08-08 02:50:46 - RiskAnalysisAgent - [32mINFO[0m - LLM configuration created for model: claude-3-5-sonnet-20241022
+2025-08-08 02:50:46 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' created successfully
+2025-08-08 02:50:46 - RiskAnalysisAgent - [32mINFO[0m - Agent configuration validation passed
+2025-08-08 02:50:46 - RiskAnalysisAgent - [32mINFO[0m - Agent 'RiskAnalysisAgent' initialized successfully
+2025-08-08 02:50:46 - RiskAnalysisAgent - [32mINFO[0m - Added tool: RiskCalculationTool
+2025-08-08 02:50:46 - RiskAnalysisAgent - [32mINFO[0m - Added tool: VolatilityAnalysisTool
+2025-08-08 02:50:46 - RiskAnalysisAgent - [32mINFO[0m - Added tool: PortfolioRiskTool
+2025-08-08 02:50:46 - RiskAnalysisAgent - [32mINFO[0m - Added 3 risk analysis tools
+2025-08-08 02:50:46 - RiskAnalysisAgent - [32mINFO[0m - Configured risk models: var, cvar, sharpe_ratio, sortino_ratio
+2025-08-08 02:50:46 - RiskAnalysisAgent - [32mINFO[0m - Risk analysis agent enhanced features initialized
