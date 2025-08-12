@@ -624,29 +624,12 @@ class FinancialDiscordBot(commands.Bot):
                 self._logger.info("✅ Commands already registered, skipping registration")
                 return
             
-            # Add the slash commands to the tree
-            self.tree.add_command(self.help_command)
-            self.tree.add_command(self.status_command)
-            self.tree.add_command(self.ping_command)
-            self.tree.add_command(self.history_command)
-            self.tree.add_command(self.clear_history_command)
-
-            self._logger.info(f"🔧 Final Slash Commands Registered: {len(self.tree.get_commands())}")
+            # Use Discord.py's built-in slash command system
+            # These decorators automatically register commands with the bot's tree
             
-            if len(self.tree.get_commands()) > 0:
-                for cmd in self.tree.get_commands():
-                    self._logger.info(f"🔍 Slash command: /{cmd.name} - {cmd.description}")
-            
-        except Exception as e:
-            self._logger.error(f"❌ Failed to register commands: {e}")
-            import traceback
-            self._logger.error(f"Full error: {traceback.format_exc()}")
-
-    @app_commands.command(name="help", description="Show detailed help for financial commands")
-    async def help_command(self, interaction: discord.Interaction):
-        """Show detailed help for financial commands"""
-        try:
-            help_text = """
+            @self.tree.command(name="help", description="Show detailed help for financial commands")
+            async def help_command(interaction: discord.Interaction):
+                help_text = """
 🤖 **Financial Recommendation Bot Help**
 
 **Available Commands:**
@@ -670,19 +653,17 @@ Simply send any message asking about financial advice, investment recommendation
 
 **Privacy:**
 Your conversations are stored securely and can be cleared at any time using `/clear_history`.
-            """
-            await interaction.response.send_message(help_text)
-        except Exception as e:
-            self._logger.error(f"Error in help command: {e}")
-            await interaction.response.send_message("❌ An error occurred while processing your request.", ephemeral=True)
+                """
+                await interaction.response.send_message(help_text)
 
-    @app_commands.command(name="status", description="Show bot status and health information")
-    async def status_command(self, interaction: discord.Interaction):
-        """Show bot status and health information"""
-        try:
-            health = await self.health_check()
-            
-            status_text = f"""
+            @self.tree.command(name="status", description="Show bot status and health information")
+            async def status_command(interaction: discord.Interaction):
+                try:
+                    # Get bot instance from interaction
+                    bot = interaction.client
+                    health = await bot.health_check()
+                    
+                    status_text = f"""
 🤖 **Bot Status Report**
 
 **Overall Status:** {health['status'].upper()}
@@ -692,80 +673,84 @@ Your conversations are stored securely and can be cleared at any time using `/cl
 **CrewAI Initialized:** {'✅ Yes' if health['crewai_initialized'] else '❌ No'}
 **Active Sessions:** {health['active_sessions']}
 **Processed Responses:** {health['processed_responses']}
-            """
-            
-            await interaction.response.send_message(status_text)
-            
-        except Exception as e:
-            self._logger.error(f"Error in status command: {e}")
-            await interaction.response.send_message(f"❌ Error getting status: {e}", ephemeral=True)
+                    """
+                    
+                    await interaction.response.send_message(status_text)
+                    
+                except Exception as e:
+                    await interaction.response.send_message(f"❌ Error getting status: {e}")
 
-    @app_commands.command(name="ping", description="Test bot responsiveness")
-    async def ping_command(self, interaction: discord.Interaction):
-        """Test bot responsiveness"""
-        try:
-            await interaction.response.send_message(f"🏓 Pong! Bot latency: {round(self.latency * 1000)}ms")
-        except Exception as e:
-            self._logger.error(f"Error in ping command: {e}")
-            await interaction.response.send_message("❌ An error occurred while processing your request.", ephemeral=True)
+            @self.tree.command(name="ping", description="Test bot responsiveness")
+            async def ping_command(interaction: discord.Interaction):
+                bot = interaction.client
+                await interaction.response.send_message(f"🏓 Pong! Bot latency: {round(bot.latency * 1000)}ms")
 
-    @app_commands.command(name="history", description="Show your conversation history")
-    async def history_command(self, interaction: discord.Interaction):
-        """Show your conversation history"""
-        try:
-            user_id = str(interaction.user.id)
-            sessions = await self.session_manager.get_user_sessions(user_id)
-            
-            if not sessions:
-                await interaction.response.send_message("📝 No conversation history found.")
-                return
-            
-            session = sessions[0]
-            history = await conversation_manager.get_conversation(session.session_id)
-            
-            if not history:
-                await interaction.response.send_message("📝 No messages in your conversation history.")
-                return
-            
-            history_text = "📝 **Your Recent Conversation History:**\n\n"
-            for msg in history[-10:]:
-                timestamp = msg.timestamp.strftime("%H:%M")
-                if msg.message_type == MessageType.USER_QUERY:
-                    history_text += f"**You ({timestamp}):** {msg.content[:100]}{'...' if len(msg.content) > 100 else ''}\n\n"
-                else:
-                    history_text += f"**Bot ({timestamp}):** {msg.content[:100]}{'...' if len(msg.content) > 100 else ''}\n\n"
-            
-            if len(history_text) > DISCORD_MAX_MESSAGE_LENGTH:
-                chunks = self._split_long_message(history_text)
-                await interaction.response.send_message(chunks[0])
-                for chunk in chunks[1:]:
-                    await interaction.followup.send(chunk)
-            else:
-                await interaction.response.send_message(history_text)
-                
-        except Exception as e:
-            self._logger.error(f"Error in history command: {e}")
-            await interaction.response.send_message(f"❌ Error retrieving history: {e}", ephemeral=True)
+            @self.tree.command(name="history", description="Show your conversation history")
+            async def history_command(interaction: discord.Interaction):
+                try:
+                    bot = interaction.client
+                    user_id = str(interaction.user.id)
+                    sessions = await bot.session_manager.get_user_sessions(user_id)
+                    
+                    if not sessions:
+                        await interaction.response.send_message("📝 No conversation history found.")
+                        return
+                    
+                    session = sessions[0]
+                    history = await conversation_manager.get_conversation(session.session_id)
+                    
+                    if not history:
+                        await interaction.response.send_message("📝 No messages in your conversation history.")
+                        return
+                    
+                    history_text = "📝 **Your Recent Conversation History:**\n\n"
+                    for msg in history[-10:]:
+                        timestamp = msg.timestamp.strftime("%H:%M")
+                        if msg.message_type == MessageType.USER_QUERY:
+                            history_text += f"**You ({timestamp}):** {msg.content[:100]}{'...' if len(msg.content) > 100 else ''}\n\n"
+                        else:
+                            history_text += f"**Bot ({timestamp}):** {msg.content[:100]}{'...' if len(msg.content) > 100 else ''}\n\n"
+                    
+                    if len(history_text) > DISCORD_MAX_MESSAGE_LENGTH:
+                        chunks = bot._split_long_message(history_text)
+                        await interaction.response.send_message(chunks[0])
+                        for chunk in chunks[1:]:
+                            await interaction.followup.send(chunk)
+                    else:
+                        await interaction.response.send_message(history_text)
+                        
+                except Exception as e:
+                    await interaction.response.send_message(f"❌ Error retrieving history: {e}")
 
-    @app_commands.command(name="clear_history", description="Clear your conversation history")
-    async def clear_history_command(self, interaction: discord.Interaction):
-        """Clear your conversation history"""
-        try:
-            user_id = str(interaction.user.id)
-            sessions = await self.session_manager.get_user_sessions(user_id)
+            @self.tree.command(name="clear_history", description="Clear your conversation history")
+            async def clear_history_command(interaction: discord.Interaction):
+                try:
+                    bot = interaction.client
+                    user_id = str(interaction.user.id)
+                    sessions = await bot.session_manager.get_user_sessions(user_id)
+                    
+                    if not sessions:
+                        await interaction.response.send_message("📝 No conversation history to clear.")
+                        return
+                    
+                    for session in sessions:
+                        await conversation_manager.clear_conversation(session.session_id)
+                    
+                    await interaction.response.send_message("🗑️ Your conversation history has been cleared successfully.")
+                    
+                except Exception as e:
+                    await interaction.response.send_message(f"❌ Error clearing history: {e}")
+
+            self._logger.info(f"🔧 Final Slash Commands Registered: {len(self.tree.get_commands())}")
             
-            if not sessions:
-                await interaction.response.send_message("📝 No conversation history to clear.")
-                return
-            
-            for session in sessions:
-                await conversation_manager.clear_conversation(session.session_id)
-            
-            await interaction.response.send_message("🗑️ Your conversation history has been cleared successfully.")
+            if len(self.tree.get_commands()) > 0:
+                for cmd in self.tree.get_commands():
+                    self._logger.info(f"🔍 Slash command: /{cmd.name} - {cmd.description}")
             
         except Exception as e:
-            self._logger.error(f"Error in clear_history command: {e}")
-            await interaction.response.send_message(f"❌ Error clearing history: {e}", ephemeral=True)
+            self._logger.error(f"❌ Failed to register commands: {e}")
+            import traceback
+            self._logger.error(f"Full error: {traceback.format_exc()}")
 
 
 async def setup_discord_bot(event_bus: EventBus, session_manager: SessionManager, 

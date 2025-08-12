@@ -323,3 +323,11 @@ litellm.exceptions.BadRequestError: litellm.BadRequestError: LLM Provider NOT pr
 2025-08-12 13:42:50 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI
 2025-08-12 18:34:09 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
 2025-08-12 18:34:09 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 20:14:05 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 20:14:05 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 20:19:03 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 20:19:03 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 20:22:00 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 20:22:00 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 20:24:18 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 20:24:18 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents

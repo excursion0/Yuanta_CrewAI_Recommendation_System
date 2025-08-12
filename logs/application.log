@@ -10749,3 +10749,217 @@ Loop thread traceback (most recent call last):
 2025-08-12 19:03:18 - __main__ - [32mINFO[0m - ✅ Event bus stopped
 2025-08-12 19:03:18 - __main__ - [32mINFO[0m - 👋 Discord bot shutdown complete
 2025-08-12 19:03:18 - __main__ - [32mINFO[0m - 👋 Discord bot stopped by user
+2025-08-12 20:14:04 - __main__ - [32mINFO[0m - 📡 Initializing core components...
+2025-08-12 20:14:04 - src.core.event_bus - [32mINFO[0m - Event bus started
+2025-08-12 20:14:04 - __main__ - [32mINFO[0m - ✅ Event bus started
+2025-08-12 20:14:05 - __main__ - [32mINFO[0m - ✅ Session manager initialized
+2025-08-12 20:14:05 - __main__ - [32mINFO[0m - 🤖 Starting Discord bot...
+2025-08-12 20:14:05 - discord.client - [33mWARNING[0m - PyNaCl is not installed, voice will NOT be supported
+2025-08-12 20:14:05 - src.core.event_bus - [32mINFO[0m - Subscribed to event type: EventType.CHAT_RESPONSE
+2025-08-12 20:14:05 - src.chatbot.discord_bot - [32mINFO[0m - 🚀 Initializing Discord Bot...
+2025-08-12 20:14:05 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] LLM created successfully with model: claude-3-5-sonnet-20241022
+2025-08-12 20:14:05 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Market data agent created successfully
+2025-08-12 20:14:05 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Agent 'MarketDataAgent' initialized successfully
+2025-08-12 20:14:05 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Agent configuration validation passed
+2025-08-12 20:14:05 - src.compliance.compliance_rules_engine - [32mINFO[0m - Initialized compliance engine with 16 rules
+2025-08-12 20:14:05 - src.compliance.suitability_validation_engine - [32mINFO[0m - Initialized suitability validation engine
+2025-08-12 20:14:05 - src.compliance.disclosure_management_system - [32mINFO[0m - Initialized disclosure management system with 10 requirements
+2025-08-12 20:14:05 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 20:14:05 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 20:14:05 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Discord Bot initialization completed
+2025-08-12 20:14:05 - root - [32mINFO[0m - 🔄 Discord bot connection attempt 1/3
+2025-08-12 20:14:05 - discord.client - [32mINFO[0m - logging in using static token
+2025-08-12 20:14:08 - discord.gateway - [32mINFO[0m - Shard ID None has connected to Gateway (Session ID: 210dc316eed56608c124664b7fee7f66).
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m - 🤖 Discord Bot Ready!
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m -    Bot Name: beam_crewai_test
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m -    Bot ID: 1404665992692502669
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m -    Servers: 1
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m -    Users: 1
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m - 📋 Available Commands:
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m -    • /help - Show detailed help
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m -    • /status - Show bot status
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m -    • /ping - Test bot responsiveness
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m -    • /history - Show conversation history
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m -    • /clear_history - Clear conversation history
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m -    • Send any message for financial advice
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Starting command registration process...
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Initial tree commands count: 0
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [31mERROR[0m - ❌ Failed to register commands: Expected an application command, received DefaultHelpCommand instead
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [31mERROR[0m - Full error: Traceback (most recent call last):
+  File "C:\Users\Maytapat\yuanta_chan_demo\yuanta_recommendation_chatbot_crewai\src\chatbot\discord_bot.py", line 757, in _register_commands
+    self.tree.add_command(self.help_command)
+  File "C:\Users\Maytapat\AppData\Roaming\Python\Python312\site-packages\discord\app_commands\tree.py", line 381, in add_command
+    raise TypeError(f'Expected an application command, received {command.__class__.__name__} instead')
+TypeError: Expected an application command, received DefaultHelpCommand instead
+
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Syncing slash commands with Discord...
+2025-08-12 20:14:10 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Sync attempt 1/3
+2025-08-12 20:14:12 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Successfully synced 0 command(s) globally on attempt 1
+2025-08-12 20:14:12 - src.chatbot.discord_bot - [33mWARNING[0m - ⚠️ Attempt 1 synced 0 commands, retrying...
+2025-08-12 20:14:12 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Sync attempt 2/3
+2025-08-12 20:15:12 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Successfully synced 0 command(s) globally on attempt 2
+2025-08-12 20:15:12 - src.chatbot.discord_bot - [33mWARNING[0m - ⚠️ Attempt 2 synced 0 commands, retrying...
+2025-08-12 20:15:12 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Sync attempt 3/3
+2025-08-12 20:15:15 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Successfully synced 0 command(s) globally on attempt 3
+2025-08-12 20:15:15 - src.chatbot.discord_bot - [33mWARNING[0m - ⚠️ Attempt 3 synced 0 commands, retrying...
+2025-08-12 20:15:15 - src.chatbot.discord_bot - [32mINFO[0m - 🔧 Final verification: 0 commands in tree
+2025-08-12 20:15:15 - src.chatbot.discord_bot - [31mERROR[0m - ❌ CRITICAL: No commands were synced despite successful registration!
+2025-08-12 20:15:15 - src.chatbot.discord_bot - [31mERROR[0m - This indicates a Discord API issue or permission problem
+2025-08-12 20:16:53 - __main__ - [32mINFO[0m - 🧹 Cleaning up...
+2025-08-12 20:16:53 - src.core.event_bus - [32mINFO[0m - Event bus stopped
+2025-08-12 20:16:53 - __main__ - [32mINFO[0m - ✅ Event bus stopped
+2025-08-12 20:16:53 - __main__ - [32mINFO[0m - 👋 Discord bot shutdown complete
+2025-08-12 20:16:53 - __main__ - [32mINFO[0m - 👋 Discord bot stopped by user
+2025-08-12 20:19:03 - __main__ - [32mINFO[0m - 📡 Initializing core components...
+2025-08-12 20:19:03 - src.core.event_bus - [32mINFO[0m - Event bus started
+2025-08-12 20:19:03 - __main__ - [32mINFO[0m - ✅ Event bus started
+2025-08-12 20:19:03 - __main__ - [32mINFO[0m - ✅ Session manager initialized
+2025-08-12 20:19:03 - __main__ - [32mINFO[0m - 🤖 Starting Discord bot...
+2025-08-12 20:19:03 - discord.client - [33mWARNING[0m - PyNaCl is not installed, voice will NOT be supported
+2025-08-12 20:19:03 - src.core.event_bus - [32mINFO[0m - Subscribed to event type: EventType.CHAT_RESPONSE
+2025-08-12 20:19:03 - src.chatbot.discord_bot - [32mINFO[0m - 🚀 Initializing Discord Bot...
+2025-08-12 20:19:03 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] LLM created successfully with model: claude-3-5-sonnet-20241022
+2025-08-12 20:19:03 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Market data agent created successfully
+2025-08-12 20:19:03 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Agent 'MarketDataAgent' initialized successfully
+2025-08-12 20:19:03 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Agent configuration validation passed
+2025-08-12 20:19:03 - src.compliance.compliance_rules_engine - [32mINFO[0m - Initialized compliance engine with 16 rules
+2025-08-12 20:19:03 - src.compliance.suitability_validation_engine - [32mINFO[0m - Initialized suitability validation engine
+2025-08-12 20:19:03 - src.compliance.disclosure_management_system - [32mINFO[0m - Initialized disclosure management system with 10 requirements
+2025-08-12 20:19:03 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 20:19:03 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 20:19:03 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Discord Bot initialization completed
+2025-08-12 20:19:03 - root - [32mINFO[0m - 🔄 Discord bot connection attempt 1/3
+2025-08-12 20:19:03 - discord.client - [32mINFO[0m - logging in using static token
+2025-08-12 20:19:05 - discord.gateway - [32mINFO[0m - Shard ID None has connected to Gateway (Session ID: b11a0409fca863f57ef47748fc7a7af3).
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m - 🤖 Discord Bot Ready!
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m -    Bot Name: beam_crewai_test
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m -    Bot ID: 1404665992692502669
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m -    Servers: 1
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m -    Users: 1
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m - 📋 Available Commands:
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m -    • /help - Show detailed help
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m -    • /status - Show bot status
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m -    • /ping - Test bot responsiveness
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m -    • /history - Show conversation history
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m -    • /clear_history - Clear conversation history
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m -    • Send any message for financial advice
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Starting command registration process...
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Initial tree commands count: 0
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m - 🔧 Final Slash Commands Registered: 0
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [33mWARNING[0m - ⚠️ No commands were added to the tree!
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m - This might be because the decorators didn't work properly
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Syncing slash commands with Discord...
+2025-08-12 20:19:07 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Sync attempt 1/3
+2025-08-12 20:19:09 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Successfully synced 0 command(s) globally on attempt 1
+2025-08-12 20:19:09 - src.chatbot.discord_bot - [33mWARNING[0m - ⚠️ Attempt 1 synced 0 commands, retrying...
+2025-08-12 20:19:09 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Sync attempt 2/3
+2025-08-12 20:20:09 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Successfully synced 0 command(s) globally on attempt 2
+2025-08-12 20:20:09 - src.chatbot.discord_bot - [33mWARNING[0m - ⚠️ Attempt 2 synced 0 commands, retrying...
+2025-08-12 20:20:09 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Sync attempt 3/3
+2025-08-12 20:20:11 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Successfully synced 0 command(s) globally on attempt 3
+2025-08-12 20:20:11 - src.chatbot.discord_bot - [33mWARNING[0m - ⚠️ Attempt 3 synced 0 commands, retrying...
+2025-08-12 20:20:11 - src.chatbot.discord_bot - [32mINFO[0m - 🔧 Final verification: 0 commands in tree
+2025-08-12 20:20:11 - src.chatbot.discord_bot - [31mERROR[0m - ❌ CRITICAL: No commands were synced despite successful registration!
+2025-08-12 20:20:11 - src.chatbot.discord_bot - [31mERROR[0m - This indicates a Discord API issue or permission problem
+2025-08-12 20:20:34 - __main__ - [32mINFO[0m - 🧹 Cleaning up...
+2025-08-12 20:20:34 - src.core.event_bus - [32mINFO[0m - Event bus stopped
+2025-08-12 20:20:34 - __main__ - [32mINFO[0m - ✅ Event bus stopped
+2025-08-12 20:20:34 - __main__ - [32mINFO[0m - 👋 Discord bot shutdown complete
+2025-08-12 20:20:34 - __main__ - [32mINFO[0m - 👋 Discord bot stopped by user
+2025-08-12 20:22:00 - __main__ - [32mINFO[0m - 📡 Initializing core components...
+2025-08-12 20:22:00 - src.core.event_bus - [32mINFO[0m - Event bus started
+2025-08-12 20:22:00 - __main__ - [32mINFO[0m - ✅ Event bus started
+2025-08-12 20:22:00 - __main__ - [32mINFO[0m - ✅ Session manager initialized
+2025-08-12 20:22:00 - __main__ - [32mINFO[0m - 🤖 Starting Discord bot...
+2025-08-12 20:22:00 - discord.client - [33mWARNING[0m - PyNaCl is not installed, voice will NOT be supported
+2025-08-12 20:22:00 - src.core.event_bus - [32mINFO[0m - Subscribed to event type: EventType.CHAT_RESPONSE
+2025-08-12 20:22:00 - src.chatbot.discord_bot - [32mINFO[0m - 🚀 Initializing Discord Bot...
+2025-08-12 20:22:00 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] LLM created successfully with model: claude-3-5-sonnet-20241022
+2025-08-12 20:22:00 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Market data agent created successfully
+2025-08-12 20:22:00 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Agent 'MarketDataAgent' initialized successfully
+2025-08-12 20:22:00 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Agent configuration validation passed
+2025-08-12 20:22:00 - src.compliance.compliance_rules_engine - [32mINFO[0m - Initialized compliance engine with 16 rules
+2025-08-12 20:22:00 - src.compliance.suitability_validation_engine - [32mINFO[0m - Initialized suitability validation engine
+2025-08-12 20:22:00 - src.compliance.disclosure_management_system - [32mINFO[0m - Initialized disclosure management system with 10 requirements
+2025-08-12 20:22:00 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 20:22:00 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 20:22:00 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Discord Bot initialization completed
+2025-08-12 20:22:00 - root - [32mINFO[0m - 🔄 Discord bot connection attempt 1/3
+2025-08-12 20:22:00 - discord.client - [32mINFO[0m - logging in using static token
+2025-08-12 20:22:02 - discord.gateway - [32mINFO[0m - Shard ID None has connected to Gateway (Session ID: b26cae8ca1fc7b3f089d3adaca6da190).
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m - 🤖 Discord Bot Ready!
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m -    Bot Name: beam_crewai_test
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m -    Bot ID: 1404665992692502669
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m -    Servers: 1
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m -    Users: 1
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m - 📋 Available Commands:
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m -    • /help - Show detailed help
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m -    • /status - Show bot status
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m -    • /ping - Test bot responsiveness
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m -    • /history - Show conversation history
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m -    • /clear_history - Clear conversation history
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m -    • Send any message for financial advice
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Starting command registration process...
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Initial tree commands count: 0
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m - 🔧 Final Slash Commands Registered: 1
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Slash command: /financial - Financial recommendation bot commands
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Syncing slash commands with Discord...
+2025-08-12 20:22:04 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Sync attempt 1/3
+2025-08-12 20:22:06 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Successfully synced 1 command(s) globally on attempt 1
+2025-08-12 20:22:06 - src.chatbot.discord_bot - [32mINFO[0m -   - /financial: Financial recommendation bot commands
+2025-08-12 20:22:06 - src.chatbot.discord_bot - [32mINFO[0m - 🔧 Final verification: 1 commands in tree
+2025-08-12 20:24:18 - __main__ - [32mINFO[0m - 📡 Initializing core components...
+2025-08-12 20:24:18 - src.core.event_bus - [32mINFO[0m - Event bus started
+2025-08-12 20:24:18 - __main__ - [32mINFO[0m - ✅ Event bus started
+2025-08-12 20:24:18 - __main__ - [32mINFO[0m - ✅ Session manager initialized
+2025-08-12 20:24:18 - __main__ - [32mINFO[0m - 🤖 Starting Discord bot...
+2025-08-12 20:24:18 - discord.client - [33mWARNING[0m - PyNaCl is not installed, voice will NOT be supported
+2025-08-12 20:24:18 - src.core.event_bus - [32mINFO[0m - Subscribed to event type: EventType.CHAT_RESPONSE
+2025-08-12 20:24:18 - src.chatbot.discord_bot - [32mINFO[0m - 🚀 Initializing Discord Bot...
+2025-08-12 20:24:18 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] LLM created successfully with model: claude-3-5-sonnet-20241022
+2025-08-12 20:24:18 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Market data agent created successfully
+2025-08-12 20:24:18 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Agent 'MarketDataAgent' initialized successfully
+2025-08-12 20:24:18 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Agent configuration validation passed
+2025-08-12 20:24:18 - src.compliance.compliance_rules_engine - [32mINFO[0m - Initialized compliance engine with 16 rules
+2025-08-12 20:24:18 - src.compliance.suitability_validation_engine - [32mINFO[0m - Initialized suitability validation engine
+2025-08-12 20:24:18 - src.compliance.disclosure_management_system - [32mINFO[0m - Initialized disclosure management system with 10 requirements
+2025-08-12 20:24:18 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 20:24:18 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 20:24:18 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Discord Bot initialization completed
+2025-08-12 20:24:18 - root - [32mINFO[0m - 🔄 Discord bot connection attempt 1/3
+2025-08-12 20:24:18 - discord.client - [32mINFO[0m - logging in using static token
+2025-08-12 20:24:20 - discord.gateway - [32mINFO[0m - Shard ID None has connected to Gateway (Session ID: 72a627a75ab1b686e84bb9759c13f49a).
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m - 🤖 Discord Bot Ready!
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m -    Bot Name: beam_crewai_test
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m -    Bot ID: 1404665992692502669
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m -    Servers: 1
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m -    Users: 1
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m - 📋 Available Commands:
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m -    • /help - Show detailed help
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m -    • /status - Show bot status
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m -    • /ping - Test bot responsiveness
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m -    • /history - Show conversation history
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m -    • /clear_history - Clear conversation history
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m -    • Send any message for financial advice
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Starting command registration process...
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Initial tree commands count: 0
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m - 🔧 Final Slash Commands Registered: 5
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Slash command: /help - Show detailed help for financial commands
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Slash command: /status - Show bot status and health information
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Slash command: /ping - Test bot responsiveness
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Slash command: /history - Show your conversation history
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Slash command: /clear_history - Clear your conversation history
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Syncing slash commands with Discord...
+2025-08-12 20:24:22 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Sync attempt 1/3
+2025-08-12 20:24:24 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Successfully synced 5 command(s) globally on attempt 1
+2025-08-12 20:24:24 - src.chatbot.discord_bot - [32mINFO[0m -   - /help: Show detailed help for financial commands
+2025-08-12 20:24:24 - src.chatbot.discord_bot - [32mINFO[0m -   - /status: Show bot status and health information
+2025-08-12 20:24:24 - src.chatbot.discord_bot - [32mINFO[0m -   - /ping: Test bot responsiveness
+2025-08-12 20:24:24 - src.chatbot.discord_bot - [32mINFO[0m -   - /history: Show your conversation history
+2025-08-12 20:24:24 - src.chatbot.discord_bot - [32mINFO[0m -   - /clear_history: Clear your conversation history
+2025-08-12 20:24:24 - src.chatbot.discord_bot - [32mINFO[0m - 🔧 Final verification: 5 commands in tree
+2025-08-12 20:29:31 - __main__ - [32mINFO[0m - 🧹 Cleaning up...
+2025-08-12 20:29:31 - src.core.event_bus - [32mINFO[0m - Event bus stopped
+2025-08-12 20:29:31 - __main__ - [32mINFO[0m - ✅ Event bus stopped
+2025-08-12 20:29:31 - __main__ - [32mINFO[0m - 👋 Discord bot shutdown complete
+2025-08-12 20:29:31 - __main__ - [32mINFO[0m - 👋 Discord bot stopped by user
