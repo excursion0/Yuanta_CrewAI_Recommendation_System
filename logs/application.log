@@ -10692,3 +10692,60 @@ Loop thread traceback (most recent call last):
 2025-08-12 14:01:08 - __main__ - [32mINFO[0m - ✅ Event bus stopped
 2025-08-12 14:01:08 - __main__ - [32mINFO[0m - 👋 Discord bot shutdown complete
 2025-08-12 14:01:08 - __main__ - [32mINFO[0m - 👋 Discord bot stopped by user
+2025-08-12 18:34:08 - __main__ - [32mINFO[0m - 📡 Initializing core components...
+2025-08-12 18:34:08 - src.core.event_bus - [32mINFO[0m - Event bus started
+2025-08-12 18:34:08 - __main__ - [32mINFO[0m - ✅ Event bus started
+2025-08-12 18:34:08 - __main__ - [32mINFO[0m - ✅ Session manager initialized
+2025-08-12 18:34:08 - __main__ - [32mINFO[0m - 🌐 Starting health check server...
+2025-08-12 18:34:08 - __main__ - [32mINFO[0m - ✅ Health check server started on port 8000
+2025-08-12 18:34:08 - __main__ - [32mINFO[0m - 🤖 Starting Discord bot...
+2025-08-12 18:34:08 - discord.client - [33mWARNING[0m - PyNaCl is not installed, voice will NOT be supported
+2025-08-12 18:34:08 - src.core.event_bus - [32mINFO[0m - Subscribed to event type: EventType.CHAT_RESPONSE
+2025-08-12 18:34:08 - src.chatbot.discord_bot - [32mINFO[0m - 🚀 Initializing Discord Bot...
+2025-08-12 18:34:09 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] LLM created successfully with model: claude-3-5-sonnet-20241022
+2025-08-12 18:34:09 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Market data agent created successfully
+2025-08-12 18:34:09 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Agent 'MarketDataAgent' initialized successfully
+2025-08-12 18:34:09 - MarketDataAgent - [32mINFO[0m - [MarketDataAgent] Agent configuration validation passed
+2025-08-12 18:34:09 - src.compliance.compliance_rules_engine - [32mINFO[0m - Initialized compliance engine with 16 rules
+2025-08-12 18:34:09 - src.compliance.suitability_validation_engine - [32mINFO[0m - Initialized suitability validation engine
+2025-08-12 18:34:09 - src.compliance.disclosure_management_system - [32mINFO[0m - Initialized disclosure management system with 10 requirements
+2025-08-12 18:34:09 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 18:34:09 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 18:34:09 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Discord Bot initialization completed
+2025-08-12 18:34:09 - root - [32mINFO[0m - 🔄 Discord bot connection attempt 1/3
+2025-08-12 18:34:09 - discord.client - [32mINFO[0m - logging in using static token
+2025-08-12 18:34:10 - discord.gateway - [32mINFO[0m - Shard ID None has connected to Gateway (Session ID: f13683b125b25e38bc741f77c8216b0f).
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m - 🤖 Discord Bot Ready!
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m -    Bot Name: beam_crewai_test
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m -    Bot ID: 1404665992692502669
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m -    Servers: 1
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m -    Users: 1
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m - 📋 Available Commands:
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m -    • /help - Show detailed help
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m -    • /status - Show bot status
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m -    • /ping - Test bot responsiveness
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m -    • /history - Show conversation history
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m -    • /clear_history - Clear conversation history
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m -    • Send any message for financial advice
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Starting command registration process...
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Initial tree commands count: 0
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m - 🔧 Final Slash Commands Registered: 5
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Slash command: /help - Show detailed help for financial commands
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Slash command: /status - Show bot status and health information
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Slash command: /ping - Test bot responsiveness
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Slash command: /history - Show your conversation history
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m - 🔍 Slash command: /clear_history - Clear your conversation history
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Syncing slash commands with Discord...
+2025-08-12 18:34:12 - src.chatbot.discord_bot - [32mINFO[0m - 🔄 Sync attempt 1/3
+2025-08-12 18:34:15 - src.chatbot.discord_bot - [32mINFO[0m - ✅ Successfully synced 5 command(s) globally on attempt 1
+2025-08-12 18:34:15 - src.chatbot.discord_bot - [32mINFO[0m -   - /help: Show detailed help for financial commands
+2025-08-12 18:34:15 - src.chatbot.discord_bot - [32mINFO[0m -   - /status: Show bot status and health information
+2025-08-12 18:34:15 - src.chatbot.discord_bot - [32mINFO[0m -   - /ping: Test bot responsiveness
+2025-08-12 18:34:15 - src.chatbot.discord_bot - [32mINFO[0m -   - /history: Show your conversation history
+2025-08-12 18:34:15 - src.chatbot.discord_bot - [32mINFO[0m -   - /clear_history: Clear your conversation history
+2025-08-12 18:34:15 - src.chatbot.discord_bot - [32mINFO[0m - 🔧 Final verification: 5 commands in tree
+2025-08-12 19:03:18 - __main__ - [32mINFO[0m - 🧹 Cleaning up...
+2025-08-12 19:03:18 - src.core.event_bus - [32mINFO[0m - Event bus stopped
+2025-08-12 19:03:18 - __main__ - [32mINFO[0m - ✅ Event bus stopped
+2025-08-12 19:03:18 - __main__ - [32mINFO[0m - 👋 Discord bot shutdown complete
+2025-08-12 19:03:18 - __main__ - [32mINFO[0m - 👋 Discord bot stopped by user

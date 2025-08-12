@@ -321,3 +321,5 @@ litellm.exceptions.BadRequestError: litellm.BadRequestError: LLM Provider NOT pr
 2025-08-12 13:40:19 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
 2025-08-12 13:42:50 - FinancialCrewOrchestrator - [32mINFO[0m - CrewAI execution completed successfully
 2025-08-12 13:42:50 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI
+2025-08-12 18:34:09 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 18:34:09 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
