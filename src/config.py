@@ -83,7 +83,7 @@ class LLMConfig:
 class DiscordConfig:
     """Discord bot configuration settings"""
     MAX_MESSAGE_LENGTH: int = 2000
-    COMMAND_PREFIX: str = "!"
+    COMMAND_PREFIX: str = "/"
     RESPONSE_TIMEOUT: int = 30
     MAX_EMBED_FIELDS: int = 25
     MAX_EMBED_DESCRIPTION: int = 4096

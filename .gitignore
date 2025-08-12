@@ -1,0 +1,5 @@
+.env
+crewai_recom.pem
+deployment/
+memory-bank/archive/
+__pycache__/

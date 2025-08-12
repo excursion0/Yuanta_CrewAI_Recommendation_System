@@ -252,3 +252,72 @@ litellm.exceptions.BadRequestError: litellm.BadRequestError: LLM Provider NOT pr
 2025-08-08 03:56:00 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
 2025-08-08 03:57:35 - FinancialCrewOrchestrator - [32mINFO[0m - CrewAI execution completed successfully
 2025-08-08 03:57:35 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI
+2025-08-12 10:34:54 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 10:34:54 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 10:35:29 - FinancialCrewOrchestrator - [32mINFO[0m - Processing financial query: /help
+2025-08-12 10:35:29 - FinancialCrewOrchestrator - [32mINFO[0m - Using conversation history with 1 messages
+2025-08-12 10:35:29 - FinancialCrewOrchestrator - [32mINFO[0m - Created 4 tasks for CrewAI execution
+2025-08-12 10:35:29 - FinancialCrewOrchestrator - [32mINFO[0m - Updated crew with tasks
+2025-08-12 10:35:29 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
+2025-08-12 10:37:39 - FinancialCrewOrchestrator - [32mINFO[0m - CrewAI execution completed successfully
+2025-08-12 10:37:39 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI
+2025-08-12 10:58:27 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 10:58:27 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 11:08:39 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 11:08:39 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 11:15:30 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 11:15:31 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 11:24:07 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 11:24:07 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 11:34:13 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 11:34:13 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 11:42:10 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 11:42:10 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 11:43:39 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 11:43:39 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 11:53:55 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 11:53:55 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 11:57:06 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 11:57:06 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 12:00:46 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 12:00:46 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 12:03:18 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 12:03:18 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 12:06:04 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 12:06:04 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 12:10:32 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 12:10:32 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 12:16:33 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 12:16:33 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 12:21:00 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 12:21:00 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 12:28:45 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 12:28:45 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 12:44:53 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 12:44:54 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 12:47:39 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 12:47:39 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 12:50:47 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 12:50:47 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 12:53:53 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 12:53:53 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 13:11:53 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 13:11:53 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 13:18:13 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 13:18:13 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 13:29:04 - FinancialCrewOrchestrator - [32mINFO[0m - Processing financial query: i want to invest in high risk fund for my retirement with around $200000 in the next 10 years. any yuanta's product recommendation?
+2025-08-12 13:29:04 - FinancialCrewOrchestrator - [32mINFO[0m - Using conversation history with 1 messages
+2025-08-12 13:29:04 - FinancialCrewOrchestrator - [32mINFO[0m - Created 4 tasks for CrewAI execution
+2025-08-12 13:29:04 - FinancialCrewOrchestrator - [32mINFO[0m - Updated crew with tasks
+2025-08-12 13:29:04 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
+2025-08-12 13:31:01 - FinancialCrewOrchestrator - [32mINFO[0m - CrewAI execution completed successfully
+2025-08-12 13:31:01 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI
+2025-08-12 13:37:10 - FinancialCrewOrchestrator - [32mINFO[0m - Created all enhanced specialized agents for financial analysis
+2025-08-12 13:37:11 - FinancialCrewOrchestrator - [32mINFO[0m - Created CrewAI crew with all agents
+2025-08-12 13:40:18 - FinancialCrewOrchestrator - [32mINFO[0m - Processing financial query: i want to invest in low risk fund for my retirement with around $200000 in the next 10 years. any yuanta's product recommendation?
+2025-08-12 13:40:18 - FinancialCrewOrchestrator - [32mINFO[0m - Using conversation history with 1 messages
+2025-08-12 13:40:19 - FinancialCrewOrchestrator - [32mINFO[0m - Created 4 tasks for CrewAI execution
+2025-08-12 13:40:19 - FinancialCrewOrchestrator - [32mINFO[0m - Updated crew with tasks
+2025-08-12 13:40:19 - FinancialCrewOrchestrator - [32mINFO[0m - Starting CrewAI crew execution (attempt 1/1)...
+2025-08-12 13:42:50 - FinancialCrewOrchestrator - [32mINFO[0m - CrewAI execution completed successfully
+2025-08-12 13:42:50 - FinancialCrewOrchestrator - [32mINFO[0m - Successfully processed financial query with CrewAI

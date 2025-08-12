@@ -62,15 +62,6 @@ async def main():
         logger.info("🤖 Starting Discord bot...")
         bot = await setup_discord_bot(event_bus, session_manager, discord_token)
         
-        # Initialize bot components (LLM, CrewAI, etc.) BEFORE starting the bot
-        logger.info("🔧 Initializing bot components...")
-        await bot.initialize()
-        logger.info("✅ Bot components initialized")
-        
-        # Now start the bot
-        logger.info("🚀 Starting Discord bot...")
-        await bot.start(discord_token)
-        
         logger.info("🎉 Discord bot started successfully!")
         logger.info("📊 Bot Status:")
         logger.info(f"   • Bot Name: {bot.user.name}")
@@ -80,7 +71,7 @@ async def main():
         logger.info("=" * 60)
         logger.info("💡 The bot is now ready to receive messages!")
         logger.info("   Users can send financial queries and the bot will respond with recommendations.")
-        logger.info("   Use !help for bot commands.")
+        logger.info("   Use /help for bot commands.")
         
         # Keep the bot running
         await asyncio.Event().wait()  # Wait indefinitely

@@ -28,7 +28,7 @@ class TestLLMProviders:
         """Mock Anthropic API response"""
         mock_response = Mock()
         mock_response.content = [Mock(text="Test response from Anthropic")]
-        mock_response.usage = Mock(input_tokens=10, output_tokens=20)
+        mock_response.usage = Mock(total_tokens=30)
         return mock_response
     
     @pytest.fixture

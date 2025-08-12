@@ -10,6 +10,7 @@ import asyncio
 import logging
 import discord
 from discord.ext import commands
+from discord import app_commands
 from typing import Dict, Any, Optional, List
 from datetime import datetime
 import os
@@ -33,14 +34,13 @@ class FinancialDiscordBot(commands.Bot):
     """
     
     def __init__(self, event_bus: EventBus, session_manager: SessionManager, 
-                 command_prefix: str = "!", intents: discord.Intents = None):
+                 intents: discord.Intents = None):
         """
         Initialize the Discord bot.
         
         Args:
             event_bus: Event bus for publishing messages
             session_manager: Session manager for user sessions
-            command_prefix: Bot command prefix
             intents: Discord intents configuration
         """
         # Set up intents if not provided
@@ -49,7 +49,8 @@ class FinancialDiscordBot(commands.Bot):
             intents.message_content = True
             intents.messages = True
         
-        super().__init__(command_prefix=command_prefix, intents=intents)
+        # Note: We keep command_prefix for Bot class compatibility, but we use slash commands
+        super().__init__(command_prefix="!", intents=intents)
         
         self.event_bus = event_bus
         self.session_manager = session_manager
@@ -76,30 +77,6 @@ class FinancialDiscordBot(commands.Bot):
         """Set up bot event handlers"""
         
         @self.event
-        async def on_ready():
-            """Called when the bot is ready"""
-            self._logger.info(f"🤖 Discord Bot Ready!")
-            self._logger.info(f"   Bot Name: {self.user.name}")
-            self._logger.info(f"   Bot ID: {self.user.id}")
-            self._logger.info(f"   Servers: {len(self.guilds)}")
-            self._logger.info(f"   Users: {len(self.users)}")
-            
-            # Set bot status
-            await self.change_presence(
-                activity=discord.Activity(
-                    type=discord.ActivityType.watching,
-                    name="financial advice"
-                )
-            )
-            
-            # Log available commands
-            self._logger.info("📋 Available Commands:")
-            self._logger.info("   • !financial_help - Show detailed help")
-            self._logger.info("   • !status - Show bot status")
-            self._logger.info("   • !ping - Test bot responsiveness")
-            self._logger.info("   • Send any message for financial advice")
-        
-        @self.event
         async def on_disconnect():
             """Called when the bot disconnects"""
             self._logger.warning("🔌 Discord Bot Disconnected")
@@ -119,25 +96,15 @@ class FinancialDiscordBot(commands.Bot):
             """Called when a message is received"""
             await self._handle_message(message)
     
-    async def _handle_commands(self, message):
-        """Handle Discord commands"""
-        try:
-            # Process commands
-            await self.process_commands(message)
-        except Exception as e:
-            self._logger.error(f"Error handling command: {e}")
-            await message.channel.send("I encountered an error processing your command. Please try again.")
-    
     async def _handle_message(self, message):
         """Handle incoming Discord messages"""
         try:
             # Ignore bot messages
             if message.author == self.user:
                 return
-
-            # Check for commands
-            if message.content.startswith('!'):
-                await self._handle_commands(message)
+            
+            # Ignore slash commands (they're handled by Discord's slash command system)
+            if message.content.startswith('/'):
                 return
 
             # Start typing indicator immediately
@@ -558,26 +525,119 @@ class FinancialDiscordBot(commands.Bot):
         except Exception as e:
             self._logger.error(f"❌ Discord Bot initialization failed: {e}")
             raise DiscordBotError(f"Failed to initialize Discord bot: {e}")
-
-
-class FinancialCommands(commands.Cog):
-    """Financial commands for the Discord bot"""
     
-    def __init__(self, bot: FinancialDiscordBot):
-        self.bot = bot
+    async def on_disconnect(self):
+        """Called when the bot disconnects from Discord"""
+        self._logger.warning("🔌 Discord Bot Disconnected")
+        self._logger.info("🔄 Attempting to reconnect...")
+
+    async def on_error(self, event_method: str, *args, **kwargs):
+        """Called when an error occurs in an event"""
+        self._logger.error(f"❌ Error in {event_method}: {args}")
+        import traceback
+        self._logger.error(f"Full error: {traceback.format_exc()}")
+
+    async def on_ready(self):
+        """Called when the bot is ready and connected to Discord"""
+        self._logger.info(f"🤖 Discord Bot Ready!")
+        self._logger.info(f"   Bot Name: {self.user.name}")
+        self._logger.info(f"   Bot ID: {self.user.id}")
+        self._logger.info(f"   Servers: {len(self.guilds)}")
+        self._logger.info(f"   Users: {len(self.users)}")
+        
+        # Set bot status
+        await self.change_presence(
+            activity=discord.Activity(
+                type=discord.ActivityType.watching,
+                name="financial advice"
+            )
+        )
+        
+        self._logger.info(f"📋 Available Commands:")
+        self._logger.info(f"   • /help - Show detailed help")
+        self._logger.info(f"   • /status - Show bot status")
+        self._logger.info(f"   • /ping - Test bot responsiveness")
+        self._logger.info(f"   • /history - Show conversation history")
+        self._logger.info(f"   • /clear_history - Clear conversation history")
+        self._logger.info(f"   • Send any message for financial advice")
+        
+        # Register slash commands with the bot's tree
+        await self._register_commands()
+        
+        # Sync commands with Discord
+        try:
+            self._logger.info("🔄 Syncing slash commands with Discord...")
+            
+            # Force global sync with retry mechanism
+            max_retries = 3
+            for attempt in range(max_retries):
+                try:
+                    self._logger.info(f"🔄 Sync attempt {attempt + 1}/{max_retries}")
+                    
+                    # Wait a bit before syncing
+                    await asyncio.sleep(2)
+                    
+                    # Force global sync
+                    synced = await self.tree.sync()
+                    self._logger.info(f"✅ Successfully synced {len(synced)} command(s) globally on attempt {attempt + 1}")
+                    
+                    # Log each synced command
+                    for cmd in synced:
+                        self._logger.info(f"  - /{cmd.name}: {cmd.description}")
+                    
+                    # If we got commands, break
+                    if len(synced) > 0:
+                        break
+                    else:
+                        self._logger.warning(f"⚠️ Attempt {attempt + 1} synced 0 commands, retrying...")
+                        
+                except Exception as sync_error:
+                    self._logger.error(f"❌ Sync attempt {attempt + 1} failed: {sync_error}")
+                    if attempt < max_retries - 1:
+                        await asyncio.sleep(3)  # Wait longer between retries
+                    else:
+                        raise sync_error
+            
+            # Final verification
+            final_count = len(self.tree.get_commands())
+            self._logger.info(f"🔧 Final verification: {final_count} commands in tree")
+            
+            if final_count == 0:
+                self._logger.error("❌ CRITICAL: No commands were synced despite successful registration!")
+                self._logger.error("This indicates a Discord API issue or permission problem")
+                
+        except Exception as e:
+            self._logger.error(f"❌ Could not sync commands: {e}")
+            self._logger.error("This usually means the bot doesn't have proper permissions")
+            import traceback
+            self._logger.error(f"Full error: {traceback.format_exc()}")
     
-    @commands.command(name="financial_help")
-    async def financial_help_command(self, ctx):
-        """Show detailed help for financial commands"""
-        help_text = """
+    async def _register_commands(self):
+        """Register all slash commands with the bot's command tree"""
+        try:
+            self._logger.info("🔍 Starting command registration process...")
+            current_commands = len(self.tree.get_commands())
+            self._logger.info(f"🔍 Initial tree commands count: {current_commands}")
+            
+            # If commands are already registered, skip registration
+            if current_commands > 0:
+                self._logger.info("✅ Commands already registered, skipping registration")
+                return
+            
+            # Use Discord.py's built-in slash command system
+            # These decorators automatically register commands with the bot's tree
+            
+            @self.tree.command(name="help", description="Show detailed help for financial commands")
+            async def help_command(interaction: discord.Interaction):
+                help_text = """
 🤖 **Financial Recommendation Bot Help**
 
 **Available Commands:**
-• `!financial_help` - Show this help message
-• `!status` - Show bot status and health
-• `!ping` - Test bot responsiveness
-• `!history` - Show your conversation history
-• `!clear_history` - Clear your conversation history
+• `/help` - Show this help message
+• `/status` - Show bot status and health
+• `/ping` - Test bot responsiveness
+• `/history` - Show your conversation history
+• `/clear_history` - Clear your conversation history
 
 **How to Use:**
 Simply send any message asking about financial advice, investment recommendations, or product information. For example:
@@ -592,17 +652,18 @@ Simply send any message asking about financial advice, investment recommendation
 • Conversation history and session management
 
 **Privacy:**
-Your conversations are stored securely and can be cleared at any time using `!clear_history`.
-        """
-        await ctx.send(help_text)
-    
-    @commands.command(name="status")
-    async def status_command(self, ctx):
-        """Show bot status and health information"""
-        try:
-            health = await self.bot.health_check()
-            
-            status_text = f"""
+Your conversations are stored securely and can be cleared at any time using `/clear_history`.
+                """
+                await interaction.response.send_message(help_text)
+
+            @self.tree.command(name="status", description="Show bot status and health information")
+            async def status_command(interaction: discord.Interaction):
+                try:
+                    # Get bot instance from interaction
+                    bot = interaction.client
+                    health = await bot.health_check()
+                    
+                    status_text = f"""
 🤖 **Bot Status Report**
 
 **Overall Status:** {health['status'].upper()}
@@ -612,76 +673,84 @@ Your conversations are stored securely and can be cleared at any time using `!cl
 **CrewAI Initialized:** {'✅ Yes' if health['crewai_initialized'] else '❌ No'}
 **Active Sessions:** {health['active_sessions']}
 **Processed Responses:** {health['processed_responses']}
-            """
+                    """
+                    
+                    await interaction.response.send_message(status_text)
+                    
+                except Exception as e:
+                    await interaction.response.send_message(f"❌ Error getting status: {e}")
+
+            @self.tree.command(name="ping", description="Test bot responsiveness")
+            async def ping_command(interaction: discord.Interaction):
+                bot = interaction.client
+                await interaction.response.send_message(f"🏓 Pong! Bot latency: {round(bot.latency * 1000)}ms")
+
+            @self.tree.command(name="history", description="Show your conversation history")
+            async def history_command(interaction: discord.Interaction):
+                try:
+                    bot = interaction.client
+                    user_id = str(interaction.user.id)
+                    sessions = await bot.session_manager.get_user_sessions(user_id)
+                    
+                    if not sessions:
+                        await interaction.response.send_message("📝 No conversation history found.")
+                        return
+                    
+                    session = sessions[0]
+                    history = await conversation_manager.get_conversation(session.session_id)
+                    
+                    if not history:
+                        await interaction.response.send_message("📝 No messages in your conversation history.")
+                        return
+                    
+                    history_text = "📝 **Your Recent Conversation History:**\n\n"
+                    for msg in history[-10:]:
+                        timestamp = msg.timestamp.strftime("%H:%M")
+                        if msg.message_type == MessageType.USER_QUERY:
+                            history_text += f"**You ({timestamp}):** {msg.content[:100]}{'...' if len(msg.content) > 100 else ''}\n\n"
+                        else:
+                            history_text += f"**Bot ({timestamp}):** {msg.content[:100]}{'...' if len(msg.content) > 100 else ''}\n\n"
+                    
+                    if len(history_text) > DISCORD_MAX_MESSAGE_LENGTH:
+                        chunks = bot._split_long_message(history_text)
+                        await interaction.response.send_message(chunks[0])
+                        for chunk in chunks[1:]:
+                            await interaction.followup.send(chunk)
+                    else:
+                        await interaction.response.send_message(history_text)
+                        
+                except Exception as e:
+                    await interaction.response.send_message(f"❌ Error retrieving history: {e}")
+
+            @self.tree.command(name="clear_history", description="Clear your conversation history")
+            async def clear_history_command(interaction: discord.Interaction):
+                try:
+                    bot = interaction.client
+                    user_id = str(interaction.user.id)
+                    sessions = await bot.session_manager.get_user_sessions(user_id)
+                    
+                    if not sessions:
+                        await interaction.response.send_message("📝 No conversation history to clear.")
+                        return
+                    
+                    for session in sessions:
+                        await conversation_manager.clear_conversation(session.session_id)
+                    
+                    await interaction.response.send_message("🗑️ Your conversation history has been cleared successfully.")
+                    
+                except Exception as e:
+                    await interaction.response.send_message(f"❌ Error clearing history: {e}")
+
+            self._logger.info(f"🔧 Final Slash Commands Registered: {len(self.tree.get_commands())}")
             
-            await ctx.send(status_text)
+            if len(self.tree.get_commands()) > 0:
+                for cmd in self.tree.get_commands():
+                    self._logger.info(f"🔍 Slash command: /{cmd.name} - {cmd.description}")
             
         except Exception as e:
-            await ctx.send(f"❌ Error getting status: {e}")
-    
-    @commands.command(name="ping")
-    async def ping_command(self, ctx):
-        """Test bot responsiveness"""
-        await ctx.send(f"🏓 Pong! Bot latency: {round(self.bot.latency * 1000)}ms")
-    
-    @commands.command(name="history")
-    async def history_command(self, ctx):
-        """Show user's conversation history"""
-        try:
-            user_id = str(ctx.author.id)
-            sessions = await self.bot.session_manager.get_user_sessions(user_id)
-            
-            if not sessions:
-                await ctx.send("📝 No conversation history found.")
-                return
-            
-            # Get the most recent session
-            session = sessions[0]
-            history = await conversation_manager.get_conversation(session.session_id)
-            
-            if not history:
-                await ctx.send("📝 No messages in your conversation history.")
-                return
-            
-            # Format history (limit to last 10 messages)
-            history_text = "📝 **Your Recent Conversation History:**\n\n"
-            for msg in history[-10:]:
-                timestamp = msg.timestamp.strftime("%H:%M")
-                if msg.message_type == MessageType.USER_QUERY:
-                    history_text += f"**You ({timestamp}):** {msg.content[:100]}{'...' if len(msg.content) > 100 else ''}\n\n"
-                else:
-                    history_text += f"**Bot ({timestamp}):** {msg.content[:100]}{'...' if len(msg.content) > 100 else ''}\n\n"
-            
-            # Split if too long
-            if len(history_text) > DISCORD_MAX_MESSAGE_LENGTH:
-                chunks = self.bot._split_long_message(history_text)
-                for chunk in chunks:
-                    await ctx.send(chunk)
-            else:
-                await ctx.send(history_text)
-                
-        except Exception as e:
-            await ctx.send(f"❌ Error retrieving history: {e}")
-    
-    @commands.command(name="clear_history")
-    async def clear_history_command(self, ctx):
-        """Clear user's conversation history"""
-        try:
-            user_id = str(ctx.author.id)
-            sessions = await self.bot.session_manager.get_user_sessions(user_id)
-            
-            if not sessions:
-                await ctx.send("📝 No conversation history to clear.")
-                return
-            
-            # Clear all sessions for the user
-            for session in sessions:
-                await conversation_manager.clear_conversation(session.session_id)
-            
-            await ctx.send("🗑️ Your conversation history has been cleared successfully.")
-            
-        except Exception as e:
-            await ctx.send(f"❌ Error clearing history: {e}")
+            self._logger.error(f"❌ Failed to register commands: {e}")
+            import traceback
+            self._logger.error(f"Full error: {traceback.format_exc()}")
 
 
 async def setup_discord_bot(event_bus: EventBus, session_manager: SessionManager, 
@@ -701,14 +770,24 @@ async def setup_discord_bot(event_bus: EventBus, session_manager: SessionManager
         # Create bot instance
         bot = FinancialDiscordBot(event_bus, session_manager)
         
-        # Add commands cog
-        await bot.add_cog(FinancialCommands(bot))
-        
         # Initialize bot
         await bot.initialize()
         
-        # Start the bot
-        await bot.start(token)
+        # Start the bot with retry mechanism
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                logging.info(f"🔄 Discord bot connection attempt {attempt + 1}/{max_retries}")
+                await bot.start(token)
+                logging.info("✅ Discord bot connected successfully")
+                break
+            except Exception as e:
+                logging.error(f"❌ Discord bot connection attempt {attempt + 1} failed: {e}")
+                if attempt < max_retries - 1:
+                    logging.info("⏳ Waiting 5 seconds before retry...")
+                    await asyncio.sleep(5)
+                else:
+                    raise DiscordBotError(f"Failed to connect Discord bot after {max_retries} attempts: {e}")
         
         return bot
         

@@ -5,7 +5,7 @@ Constants and configuration values for the financial recommendation system.
 # Discord Configuration
 DISCORD_MAX_MESSAGE_LENGTH = 1900
 DISCORD_TIMEOUT_SECONDS = 25.0
-DISCORD_COMMAND_PREFIX = "!"
+DISCORD_COMMAND_PREFIX = "/"
 
 # API Configuration
 ANTHROPIC_MODEL = "claude-3-5-sonnet-20241022"

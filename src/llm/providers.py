@@ -137,11 +137,19 @@ class AnthropicProvider(LLMProvider):
                 # Extract response content
                 content = response.content[0].text if response.content else ""
                 
+                # Calculate total tokens used
+                usage = getattr(response, 'usage', {})
+                total_tokens = None
+                if hasattr(usage, 'total_tokens') and usage.total_tokens is not None:
+                    total_tokens = usage.total_tokens
+                elif hasattr(usage, 'input_tokens') and hasattr(usage, 'output_tokens'):
+                    total_tokens = usage.input_tokens + usage.output_tokens
+                
                 return LLMResponse(
                     content=content,
                     model=self.model,
                     provider="anthropic",
-                    tokens_used=getattr(response, 'usage', {}).get('total_tokens'),
+                    tokens_used=total_tokens,
                     latency_ms=latency_ms
                 )
                 
